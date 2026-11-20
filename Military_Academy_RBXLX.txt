@@ -1,0 +1,1132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<roblox version="4">
+	<Item class="Workspace" referent="RBX0">
+		<Properties>
+			<string name="Name">Workspace</string>
+			<bool name="FilteringEnabled">true</bool>
+			<float name="Gravity">196.2</float>
+		</Properties>
+
+		<Item class="Part" referent="RBX1">
+			<Properties>
+				<string name="Name">AcademyGround</string>
+				<bool name="Anchored">true</bool>
+				<bool name="CanCollide">true</bool>
+				<bool name="Locked">true</bool>
+				<Color3uint8 name="Color3uint8">4282994494</Color3uint8>
+				<token name="Material">816</token>
+				<Vector3 name="size">
+					<X>1100</X>
+					<Y>4</Y>
+					<Z>1100</Z>
+				</Vector3>
+				<CoordinateFrame name="CFrame">
+					<X>0</X>
+					<Y>-2</Y>
+					<Z>0</Z>
+					<R00>1</R00><R01>0</R01><R02>0</R02>
+					<R10>0</R10><R11>1</R11><R12>0</R12>
+					<R20>0</R20><R21>0</R21><R22>1</R22>
+				</CoordinateFrame>
+			</Properties>
+		</Item>
+
+		<Item class="SpawnLocation" referent="RBX2">
+			<Properties>
+				<string name="Name">AcademyGateSpawn</string>
+				<bool name="Anchored">true</bool>
+				<bool name="CanCollide">true</bool>
+				<bool name="Neutral">true</bool>
+				<int name="Duration">0</int>
+				<Color3uint8 name="Color3uint8">4283782485</Color3uint8>
+				<token name="Material">288</token>
+				<Vector3 name="size">
+					<X>22</X>
+					<Y>1</Y>
+					<Z>22</Z>
+				</Vector3>
+				<CoordinateFrame name="CFrame">
+					<X>0</X>
+					<Y>0.5</Y>
+					<Z>180</Z>
+					<R00>1</R00><R01>0</R01><R02>0</R02>
+					<R10>0</R10><R11>1</R11><R12>0</R12>
+					<R20>0</R20><R21>0</R21><R22>1</R22>
+				</CoordinateFrame>
+			</Properties>
+		</Item>
+
+		<Item class="Folder" referent="RBX3">
+			<Properties>
+				<string name="Name">MilitaryAcademyWorld</string>
+			</Properties>
+
+			<!-- الطريق الرئيسي للأكاديمية -->
+			<Item class="Part" referent="RBX4">
+				<Properties>
+					<string name="Name">AcademyBoulevard</string>
+					<bool name="Anchored">true</bool>
+					<bool name="CanCollide">true</bool>
+					<Color3uint8 name="Color3uint8">4281545523</Color3uint8>
+					<token name="Material">1040</token>
+					<Vector3 name="size">
+						<X>40</X>
+						<Y>0.4</Y>
+						<Z>290</Z>
+					</Vector3>
+					<CoordinateFrame name="CFrame">
+						<X>0</X>
+						<Y>0.2</Y>
+						<Z>45</Z>
+						<R00>1</R00><R01>0</R01><R02>0</R02>
+						<R10>0</R10><R11>1</R11><R12>0</R12>
+						<R20>0</R20><R21>0</R21><R22>1</R22>
+					</CoordinateFrame>
+				</Properties>
+			</Item>
+
+			<!-- ساحة الطابور والتدريب العسكري -->
+			<Item class="Part" referent="RBX5">
+				<Properties>
+					<string name="Name">CadetParadeGround</string>
+					<bool name="Anchored">true</bool>
+					<bool name="CanCollide">true</bool>
+					<Color3uint8 name="Color3uint8">4284900966</Color3uint8>
+					<token name="Material">288</token>
+					<Vector3 name="size">
+						<X>190</X>
+						<Y>0.5</Y>
+						<Z>160</Z>
+					</Vector3>
+					<CoordinateFrame name="CFrame">
+						<X>0</X>
+						<Y>0.25</Y>
+						<Z>-35</Z>
+						<R00>1</R00><R01>0</R01><R02>0</R02>
+						<R10>0</R10><R11>1</R11><R12>0</R12>
+						<R20>0</R20><R21>0</R21><R22>1</R22>
+					</CoordinateFrame>
+				</Properties>
+			</Item>
+
+			<!-- مبنى قيادة الأكاديمية ومنصة التفتيش -->
+			<Item class="Part" referent="RBX6">
+				<Properties>
+					<string name="Name">AcademyCommandHall</string>
+					<bool name="Anchored">true</bool>
+					<bool name="CanCollide">true</bool>
+					<Color3uint8 name="Color3uint8">4281545523</Color3uint8>
+					<token name="Material">1040</token>
+					<Vector3 name="size">
+						<X>70</X>
+						<Y>24</Y>
+						<Z>34</Z>
+					</Vector3>
+					<CoordinateFrame name="CFrame">
+						<X>0</X>
+						<Y>12</Y>
+						<Z>-145</Z>
+						<R00>1</R00><R01>0</R01><R02>0</R02>
+						<R10>0</R10><R11>1</R11><R12>0</R12>
+						<R20>0</R20><R21>0</R21><R22>1</R22>
+					</CoordinateFrame>
+				</Properties>
+			</Item>
+
+			<!-- بوابة الأكاديمية الذكية -->
+			<Item class="Part" referent="RBX7">
+				<Properties>
+					<string name="Name">AcademySmartGate</string>
+					<bool name="Anchored">true</bool>
+					<bool name="CanCollide">true</bool>
+					<float name="Transparency">0.15</float>
+					<Color3uint8 name="Color3uint8">4290772992</Color3uint8>
+					<token name="Material">1088</token>
+					<Vector3 name="size">
+						<X>36</X>
+						<Y>16</Y>
+						<Z>3</Z>
+					</Vector3>
+					<CoordinateFrame name="CFrame">
+						<X>0</X>
+						<Y>8</Y>
+						<Z>100</Z>
+						<R00>1</R00><R01>0</R01><R02>0</R02>
+						<R10>0</R10><R11>1</R11><R12>0</R12>
+						<R20>0</R20><R21>0</R21><R22>1</R22>
+					</CoordinateFrame>
+				</Properties>
+			</Item>
+
+			<!-- السور الخارجي للأكاديمية -->
+			<Item class="Part" referent="RBX8">
+				<Properties>
+					<string name="Name">OuterWallFrontLeft</string>
+					<bool name="Anchored">true</bool>
+					<bool name="CanCollide">true</bool>
+					<Color3uint8 name="Color3uint8">4283782485</Color3uint8>
+					<token name="Material">288</token>
+					<Vector3 name="size">
+						<X>172</X>
+						<Y>20</Y>
+						<Z>5</Z>
+					</Vector3>
+					<CoordinateFrame name="CFrame">
+						<X>-104</X>
+						<Y>10</Y>
+						<Z>100</Z>
+						<R00>1</R00><R01>0</R01><R02>0</R02>
+						<R10>0</R10><R11>1</R11><R12>0</R12>
+						<R20>0</R20><R21>0</R21><R22>1</R22>
+					</CoordinateFrame>
+				</Properties>
+			</Item>
+
+			<Item class="Part" referent="RBX9">
+				<Properties>
+					<string name="Name">OuterWallFrontRight</string>
+					<bool name="Anchored">true</bool>
+					<bool name="CanCollide">true</bool>
+					<Color3uint8 name="Color3uint8">4283782485</Color3uint8>
+					<token name="Material">288</token>
+					<Vector3 name="size">
+						<X>172</X>
+						<Y>20</Y>
+						<Z>5</Z>
+					</Vector3>
+					<CoordinateFrame name="CFrame">
+						<X>104</X>
+						<Y>10</Y>
+						<Z>100</Z>
+						<R00>1</R00><R01>0</R01><R02>0</R02>
+						<R10>0</R10><R11>1</R11><R12>0</R12>
+						<R20>0</R20><R21>0</R21><R22>1</R22>
+					</CoordinateFrame>
+				</Properties>
+			</Item>
+
+			<Item class="Part" referent="RBX10">
+				<Properties>
+					<string name="Name">OuterWallBack</string>
+					<bool name="Anchored">true</bool>
+					<bool name="CanCollide">true</bool>
+					<Color3uint8 name="Color3uint8">4283782485</Color3uint8>
+					<token name="Material">288</token>
+					<Vector3 name="size">
+						<X>384</X>
+						<Y>20</Y>
+						<Z>5</Z>
+					</Vector3>
+					<CoordinateFrame name="CFrame">
+						<X>0</X>
+						<Y>10</Y>
+						<Z>-195</Z>
+						<R00>1</R00><R01>0</R01><R02>0</R02>
+						<R10>0</R10><R11>1</R11><R12>0</R12>
+						<R20>0</R20><R21>0</R21><R22>1</R22>
+					</CoordinateFrame>
+				</Properties>
+			</Item>
+
+			<Item class="Part" referent="RBX11">
+				<Properties>
+					<string name="Name">OuterWallLeft</string>
+					<bool name="Anchored">true</bool>
+					<bool name="CanCollide">true</bool>
+					<Color3uint8 name="Color3uint8">4283782485</Color3uint8>
+					<token name="Material">288</token>
+					<Vector3 name="size">
+						<X>5</X>
+						<Y>20</Y>
+						<Z>300</Z>
+					</Vector3>
+					<CoordinateFrame name="CFrame">
+						<X>-190</X>
+						<Y>10</Y>
+						<Z>-47.5</Z>
+						<R00>1</R00><R01>0</R01><R02>0</R02>
+						<R10>0</R10><R11>1</R11><R12>0</R12>
+						<R20>0</R20><R21>0</R21><R22>1</R22>
+					</CoordinateFrame>
+				</Properties>
+			</Item>
+
+			<Item class="Part" referent="RBX12">
+				<Properties>
+					<string name="Name">OuterWallRight</string>
+					<bool name="Anchored">true</bool>
+					<bool name="CanCollide">true</bool>
+					<Color3uint8 name="Color3uint8">4283782485</Color3uint8>
+					<token name="Material">288</token>
+					<Vector3 name="size">
+						<X>5</X>
+						<Y>20</Y>
+						<Z>300</Z>
+					</Vector3>
+					<CoordinateFrame name="CFrame">
+						<X>190</X>
+						<Y>10</Y>
+						<Z>-47.5</Z>
+						<R00>1</R00><R01>0</R01><R02>0</R02>
+						<R10>0</R10><R11>1</R11><R12>0</R12>
+						<R20>0</R20><R21>0</R21><R22>1</R22>
+					</CoordinateFrame>
+				</Properties>
+			</Item>
+
+			<!-- مهاجع الطلاب العسكريين (Barracks) -->
+			<Item class="Part" referent="RBX13">
+				<Properties>
+					<string name="Name">CadetBarracksA</string>
+					<bool name="Anchored">true</bool>
+					<bool name="CanCollide">true</bool>
+					<Color3uint8 name="Color3uint8">4282664004</Color3uint8>
+					<token name="Material">1040</token>
+					<Vector3 name="size">
+						<X>38</X>
+						<Y>16</Y>
+						<Z>60</Z>
+					</Vector3>
+					<CoordinateFrame name="CFrame">
+						<X>-135</X>
+						<Y>8</Y>
+						<Z>-55</Z>
+						<R00>1</R00><R01>0</R01><R02>0</R02>
+						<R10>0</R10><R11>1</R11><R12>0</R12>
+						<R20>0</R20><R21>0</R21><R22>1</R22>
+					</CoordinateFrame>
+				</Properties>
+			</Item>
+
+			<!-- ميدان التدريب البدني والعوائق -->
+			<Item class="Part" referent="RBX14">
+				<Properties>
+					<string name="Name">ObstacleCourseZone</string>
+					<bool name="Anchored">true</bool>
+					<bool name="CanCollide">true</bool>
+					<Color3uint8 name="Color3uint8">4286348648</Color3uint8>
+					<token name="Material">288</token>
+					<Vector3 name="size">
+						<X>45</X>
+						<Y>0.6</Y>
+						<Z>90</Z>
+					</Vector3>
+					<CoordinateFrame name="CFrame">
+						<X>135</X>
+						<Y>0.3</Y>
+						<Z>-55</Z>
+						<R00>1</R00><R01>0</R01><R02>0</R02>
+						<R10>0</R10><R11>1</R11><R12>0</R12>
+						<R20>0</R20><R21>0</R21><R22>1</R22>
+					</CoordinateFrame>
+				</Properties>
+			</Item>
+
+			<!-- حواجز القفز في ميدان التدريب -->
+			<Item class="Part" referent="RBX15">
+				<Properties>
+					<string name="Name">TrainingBarrier1</string>
+					<bool name="Anchored">true</bool>
+					<bool name="CanCollide">true</bool>
+					<Color3uint8 name="Color3uint8">4294198070</Color3uint8>
+					<token name="Material">1088</token>
+					<Vector3 name="size">
+						<X>30</X>
+						<Y>4.5</Y>
+						<Z>2</Z>
+					</Vector3>
+					<CoordinateFrame name="CFrame">
+						<X>135</X>
+						<Y>2.8</Y>
+						<Z>-30</Z>
+						<R00>1</R00><R01>0</R01><R02>0</R02>
+						<R10>0</R10><R11>1</R11><R12>0</R12>
+						<R20>0</R20><R21>0</R21><R22>1</R22>
+					</CoordinateFrame>
+				</Properties>
+			</Item>
+
+			<Item class="Part" referent="RBX16">
+				<Properties>
+					<string name="Name">TrainingBarrier2</string>
+					<bool name="Anchored">true</bool>
+					<bool name="CanCollide">true</bool>
+					<Color3uint8 name="Color3uint8">4294198070</Color3uint8>
+					<token name="Material">1088</token>
+					<Vector3 name="size">
+						<X>30</X>
+						<Y>6.5</Y>
+						<Z>2</Z>
+					</Vector3>
+					<CoordinateFrame name="CFrame">
+						<X>135</X>
+						<Y>3.8</Y>
+						<Z>-65</Z>
+						<R00>1</R00><R01>0</R01><R02>0</R02>
+						<R10>0</R10><R11>1</R11><R12>0</R12>
+						<R20>0</R20><R21>0</R21><R22>1</R22>
+					</CoordinateFrame>
+				</Properties>
+			</Item>
+
+			<!-- مستودع أسلحة الأكاديمية -->
+			<Item class="Part" referent="RBX17">
+				<Properties>
+					<string name="Name">AcademyArmoryPad</string>
+					<bool name="Anchored">true</bool>
+					<bool name="CanCollide">true</bool>
+					<Color3uint8 name="Color3uint8">4281167145</Color3uint8>
+					<token name="Material">1088</token>
+					<Vector3 name="size">
+						<X>18</X>
+						<Y>2</Y>
+						<Z>18</Z>
+					</Vector3>
+					<CoordinateFrame name="CFrame">
+						<X>135</X>
+						<Y>1</Y>
+						<Z>35</Z>
+						<R00>1</R00><R01>0</R01><R02>0</R02>
+						<R10>0</R10><R11>1</R11><R12>0</R12>
+						<R20>0</R20><R21>0</R21><R22>1</R22>
+					</CoordinateFrame>
+				</Properties>
+			</Item>
+
+			<!-- مرآب آليات الأكاديمية -->
+			<Item class="Part" referent="RBX18">
+				<Properties>
+					<string name="Name">AcademyGaragePad</string>
+					<bool name="Anchored">true</bool>
+					<bool name="CanCollide">true</bool>
+					<Color3uint8 name="Color3uint8">4282664004</Color3uint8>
+					<token name="Material">1088</token>
+					<Vector3 name="size">
+						<X>20</X>
+						<Y>1</Y>
+						<Z>20</Z>
+					</Vector3>
+					<CoordinateFrame name="CFrame">
+						<X>-135</X>
+						<Y>0.5</Y>
+						<Z>35</Z>
+						<R00>1</R00><R01>0</R01><R02>0</R02>
+						<R10>0</R10><R11>1</R11><R12>0</R12>
+						<R20>0</R20><R21>0</R21><R22>1</R22>
+					</CoordinateFrame>
+				</Properties>
+			</Item>
+
+			<!-- موقع التوقيف الانضباطي -->
+			<Item class="Part" referent="RBX19">
+				<Properties>
+					<string name="Name">DisciplinaryCell</string>
+					<bool name="Anchored">true</bool>
+					<bool name="CanCollide">true</bool>
+					<Color3uint8 name="Color3uint8">4281545523</Color3uint8>
+					<token name="Material">1040</token>
+					<Vector3 name="size">
+						<X>30</X>
+						<Y>1</Y>
+						<Z>30</Z>
+					</Vector3>
+					<CoordinateFrame name="CFrame">
+						<X>135</X>
+						<Y>0.5</Y>
+						<Z>-155</Z>
+						<R00>1</R00><R01>0</R01><R02>0</R02>
+						<R10>0</R10><R11>1</R11><R12>0</R12>
+						<R20>0</R20><R21>0</R21><R22>1</R22>
+					</CoordinateFrame>
+				</Properties>
+			</Item>
+		</Item>
+	</Item>
+
+	<Item class="Teams" referent="RBX20">
+		<Properties>
+			<string name="Name">Teams</string>
+		</Properties>
+		<Item class="Team" referent="RBX21">
+			<Properties>
+				<string name="Name">مستجد | Recruit</string>
+				<bool name="AutoAssignable">true</bool>
+				<BrickColor name="TeamColor">194</BrickColor>
+			</Properties>
+		</Item>
+		<Item class="Team" referent="RBX22">
+			<Properties>
+				<string name="Name">طلاب الأكاديمية | Cadets</string>
+				<bool name="AutoAssignable">false</bool>
+				<BrickColor name="TeamColor">28</BrickColor>
+			</Properties>
+		</Item>
+		<Item class="Team" referent="RBX23">
+			<Properties>
+				<string name="Name">المدربون والانضباط | Instructors</string>
+				<bool name="AutoAssignable">false</bool>
+				<BrickColor name="TeamColor">21</BrickColor>
+			</Properties>
+		</Item>
+		<Item class="Team" referent="RBX24">
+			<Properties>
+				<string name="Name">قيادة الأكاديمية | Academy Command</string>
+				<bool name="AutoAssignable">false</bool>
+				<BrickColor name="TeamColor">1009</BrickColor>
+			</Properties>
+		</Item>
+	</Item>
+
+	<Item class="ReplicatedStorage" referent="RBX25">
+		<Properties>
+			<string name="Name">ReplicatedStorage</string>
+		</Properties>
+		<Item class="Folder" referent="RBX26">
+			<Properties>
+				<string name="Name">AcademyRemotes</string>
+			</Properties>
+			<Item class="RemoteEvent" referent="RBX27">
+				<Properties>
+					<string name="Name">AcademyAction</string>
+				</Properties>
+			</Item>
+			<Item class="RemoteEvent" referent="RBX28">
+				<Properties>
+					<string name="Name">AcademyAlert</string>
+				</Properties>
+			</Item>
+		</Item>
+	</Item>
+
+	<Item class="ServerScriptService" referent="RBX29">
+		<Properties>
+			<string name="Name">ServerScriptService</string>
+		</Properties>
+		<Item class="Script" referent="RBX30">
+			<Properties>
+				<string name="Name">AcademyCoreServer</string>
+				<bool name="Disabled">false</bool>
+				<ProtectedString name="Source"><![CDATA[local Players = game:GetService("Players")
+local Teams = game:GetService("Teams")
+local DataStoreService = game:GetService("DataStoreService")
+local ReplicatedStorage = game:GetService("ReplicatedStorage")
+local TweenService = game:GetService("TweenService")
+
+local OWNERS = {
+	["fhfgbv38"] = true,
+	["studio10a"] = true,
+	["abasdj1"] = true,
+	["Djbm442"] = true,
+	["ahass_1213"] = true
+}
+
+local RANKS = {
+	[1] = {Title = "مستجد", Team = "مستجد | Recruit", Color = Color3.fromRGB(205, 205, 205)},
+	[2] = {Title = "طالب حربي", Team = "طلاب الأكاديمية | Cadets", Color = Color3.fromRGB(90, 180, 90)},
+	[3] = {Title = "طالب متقدم", Team = "طلاب الأكاديمية | Cadets", Color = Color3.fromRGB(90, 180, 90)},
+	[4] = {Title = "رقيب تدريب", Team = "المدربون والانضباط | Instructors", Color = Color3.fromRGB(225, 85, 85)},
+	[5] = {Title = "مدرب ميداني", Team = "المدربون والانضباط | Instructors", Color = Color3.fromRGB(225, 65, 65)},
+	[6] = {Title = "ملازم أكاديمي", Team = "قيادة الأكاديمية | Academy Command", Color = Color3.fromRGB(255, 205, 55)},
+	[7] = {Title = "نقيب", Team = "قيادة الأكاديمية | Academy Command", Color = Color3.fromRGB(255, 205, 55)},
+	[8] = {Title = "عقيد", Team = "قيادة الأكاديمية | Academy Command", Color = Color3.fromRGB(255, 175, 0)},
+	[9] = {Title = "عميد الأكاديمية", Team = "قيادة الأكاديمية | Academy Command", Color = Color3.fromRGB(255, 145, 0)},
+	[10] = {Title = "قائد الأكاديمية العام", Team = "قيادة الأكاديمية | Academy Command", Color = Color3.fromRGB(255, 215, 0)}
+}
+
+local remotes = ReplicatedStorage:WaitForChild("AcademyRemotes", 10)
+local actionEvent = remotes and remotes:WaitForChild("AcademyAction", 10)
+local alertEvent = remotes and remotes:WaitForChild("AcademyAlert", 10)
+
+local AcademyStore = nil
+pcall(function()
+	AcademyStore = DataStoreService:GetDataStore("MilitaryAcademy_Data_V1")
+end)
+
+local function findPlayer(prefix)
+	local q = string.lower(prefix or "")
+	if q == "" then return nil end
+	for _, p in ipairs(Players:GetPlayers()) do
+		if string.sub(string.lower(p.Name), 1, #q) == q then
+			return p
+		end
+	end
+	return nil
+end
+
+local function createOverhead(player, character, rankData)
+	local head = character:WaitForChild("Head", 10)
+	if not head then return end
+	local old = head:FindFirstChild("AcademyTag")
+	if old then old:Destroy() end
+
+	local bb = Instance.new("BillboardGui")
+	bb.Name = "AcademyTag"
+	bb.Size = UDim2.new(0, 235, 0, 64)
+	bb.StudsOffset = Vector3.new(0, 2.9, 0)
+	bb.AlwaysOnTop = true
+	bb.Parent = head
+
+	local frame = Instance.new("Frame")
+	frame.Size = UDim2.new(1, 0, 1, 0)
+	frame.BackgroundColor3 = Color3.fromRGB(16, 22, 18)
+	frame.BackgroundTransparency = 0.2
+	frame.Parent = bb
+	Instance.new("UICorner", frame).CornerRadius = UDim.new(0, 10)
+	local st = Instance.new("UIStroke", frame)
+	st.Color = rankData.Color
+	st.Thickness = 1.6
+
+	local nLbl = Instance.new("TextLabel")
+	nLbl.Size = UDim2.new(1, -10, 0.5, 0)
+	nLbl.Position = UDim2.new(0, 5, 0, 2)
+	nLbl.BackgroundTransparency = 1
+	nLbl.Text = "🎖️ " .. player.Name
+	nLbl.TextColor3 = Color3.fromRGB(255, 255, 255)
+	nLbl.Font = Enum.Font.GothamBold
+	nLbl.TextScaled = true
+	nLbl.Parent = frame
+
+	local rLbl = Instance.new("TextLabel")
+	rLbl.Size = UDim2.new(1, -10, 0.45, 0)
+	rLbl.Position = UDim2.new(0, 5, 0.5, 0)
+	rLbl.BackgroundTransparency = 1
+	rLbl.Text = "[ " .. rankData.Title .. " ]"
+	rLbl.TextColor3 = rankData.Color
+	rLbl.Font = Enum.Font.GothamSemibold
+	rLbl.TextScaled = true
+	rLbl.Parent = frame
+end
+
+local function setRank(player, lvl)
+	local level = math.clamp(lvl or 1, 1, 10)
+	local rData = RANKS[level]
+	player:SetAttribute("RankLevel", level)
+	player:SetAttribute("RankTitle", rData.Title)
+
+	local team = Teams:FindFirstChild(rData.Team)
+	if team then player.Team = team end
+
+	local ls = player:FindFirstChild("leaderstats")
+	if ls and ls:FindFirstChild("الرتبة") then
+		ls["الرتبة"].Value = rData.Title
+	end
+
+	if player.Character then
+		createOverhead(player, player.Character, rData)
+	end
+end
+
+Players.PlayerAdded:Connect(function(player)
+	local ls = Instance.new("Folder")
+	ls.Name = "leaderstats"
+	ls.Parent = player
+
+	local riyal = Instance.new("IntValue")
+	riyal.Name = "ريال"
+	riyal.Value = 500
+	riyal.Parent = ls
+
+	local rankVal = Instance.new("StringValue")
+	rankVal.Name = "الرتبة"
+	rankVal.Value = "مستجد"
+	rankVal.Parent = ls
+
+	local startRank = 1
+	if AcademyStore then
+		local ok, saved = pcall(function()
+			return AcademyStore:GetAsync("Cadet_" .. tostring(player.UserId))
+		end)
+		if ok and type(saved) == "table" then
+			riyal.Value = saved.Riyal or 500
+			startRank = saved.RankLevel or 1
+		end
+	end
+
+	if OWNERS[player.Name] then
+		startRank = 10
+		if riyal.Value < 10000 then riyal.Value = 10000 end
+	end
+
+	player.CharacterAdded:Connect(function(char)
+		task.wait(0.25)
+		setRank(player, player:GetAttribute("RankLevel") or startRank)
+	end)
+
+	setRank(player, startRank)
+
+	task.spawn(function()
+		while player.Parent do
+			task.wait(60)
+			if player.Parent and riyal.Parent then
+				local l = player:GetAttribute("RankLevel") or 1
+				riyal.Value = riyal.Value + ((l == 1) and 50 or (100 + l * 25))
+			end
+		end
+	end)
+
+	player.Chatted:Connect(function(msg)
+		local senderLvl = player:GetAttribute("RankLevel") or 1
+		if senderLvl < 5 and not OWNERS[player.Name] then return end
+
+		local parts = string.split(msg, " ")
+		local cmd = string.lower(parts[1] or "")
+
+		if cmd == "!ترقية" and parts[2] then
+			local target = findPlayer(parts[2])
+			if target then
+				local cur = target:GetAttribute("RankLevel") or 1
+				if cur < 10 then setRank(target, cur + 1) end
+			end
+		elseif cmd == "!تنزيل" and parts[2] then
+			local target = findPlayer(parts[2])
+			if target then
+				local cur = target:GetAttribute("RankLevel") or 1
+				if cur > 1 then setRank(target, cur - 1) end
+			end
+		elseif cmd == "!تنبيه" and #parts >= 2 then
+			local txt = table.concat(parts, " ", 2)
+			if alertEvent then
+				alertEvent:FireAllClients("📢 نداء الأكاديمية (" .. player.Name .. "): " .. txt)
+			end
+		elseif cmd == "!توقيف" and parts[2] then
+			local target = findPlayer(parts[2])
+			local world = workspace:FindFirstChild("MilitaryAcademyWorld")
+			local cell = world and world:FindFirstChild("DisciplinaryCell")
+			if target and cell and target.Character then
+				local hrp = target.Character:FindFirstChild("HumanoidRootPart")
+				if hrp then hrp.CFrame = cell.CFrame + Vector3.new(0, 4, 0) end
+			end
+		end
+	end)
+end)
+
+Players.PlayerRemoving:Connect(function(player)
+	if not AcademyStore then return end
+	local ls = player:FindFirstChild("leaderstats")
+	if not ls then return end
+	pcall(function()
+		AcademyStore:SetAsync("Cadet_" .. tostring(player.UserId), {
+			Riyal = ls:FindFirstChild("ريال") and ls["ريال"].Value or 500,
+			RankLevel = player:GetAttribute("RankLevel") or 1
+		})
+	end)
+end)
+
+local world = workspace:WaitForChild("MilitaryAcademyWorld", 10)
+if world then
+	local gate = world:FindFirstChild("AcademySmartGate")
+	if gate then
+		local openState = false
+		local closedCF = gate.CFrame
+		local openCF = closedCF * CFrame.new(0, 15, 0)
+		local prompt = Instance.new("ProximityPrompt")
+		prompt.ActionText = "فتح / إغلاق بوابة الأكاديمية"
+		prompt.ObjectText = "البوابة الرئيسية"
+		prompt.MaxActivationDistance = 18
+		prompt.Parent = gate
+
+		prompt.Triggered:Connect(function(player)
+			local l = player:GetAttribute("RankLevel") or 1
+			if l >= 2 or OWNERS[player.Name] then
+				openState = not openState
+				TweenService:Create(gate, TweenInfo.new(0.8), {CFrame = openState and openCF or closedCF}):Play()
+			end
+		end)
+	end
+
+	local armory = world:FindFirstChild("AcademyArmoryPad")
+	if armory then
+		local apr = Instance.new("ProximityPrompt")
+		apr.ActionText = "استلام سلاح التدريب"
+		apr.ObjectText = "مستودع الأكاديمية"
+		apr.MaxActivationDistance = 15
+		apr.Parent = armory
+
+		apr.Triggered:Connect(function(player)
+			local l = player:GetAttribute("RankLevel") or 1
+			if l < 2 and not OWNERS[player.Name] then return end
+			local bp = player:FindFirstChild("Backpack")
+			if not bp or bp:FindFirstChild("بندقية التدريب") then return end
+
+			local tool = Instance.new("Tool")
+			tool.Name = "بندقية التدريب"
+			tool.RequiresHandle = true
+
+			local handle = Instance.new("Part")
+			handle.Name = "Handle"
+			handle.Size = Vector3.new(0.45, 0.65, 3.3)
+			handle.Color = Color3.fromRGB(32, 35, 32)
+			handle.Material = Enum.Material.Metal
+			handle.Parent = tool
+
+			local cooldown = false
+			tool.Activated:Connect(function()
+				if cooldown then return end
+				cooldown = true
+				local char = player.Character
+				if char then
+					local params = RaycastParams.new()
+					params.FilterDescendantsInstances = {char}
+					params.FilterType = Enum.RaycastFilterType.Exclude
+					local hit = workspace:Raycast(handle.Position, handle.CFrame.LookVector * 280, params)
+					if hit and hit.Instance then
+						local m = hit.Instance:FindFirstAncestorOfClass("Model")
+						local hum = m and m:FindFirstChildOfClass("Humanoid")
+						if hum and hum.Health > 0 then
+							hum:TakeDamage(25)
+						end
+					end
+				end
+				task.wait(0.22)
+				cooldown = false
+			end)
+			tool.Parent = bp
+		end)
+	end
+
+	local garage = world:FindFirstChild("AcademyGaragePad")
+	if garage then
+		local gpr = Instance.new("ProximityPrompt")
+		gpr.ActionText = "استدعاء عربة الأكاديمية"
+		gpr.ObjectText = "مرآب الأكاديمية"
+		gpr.MaxActivationDistance = 16
+		gpr.Parent = garage
+
+		gpr.Triggered:Connect(function(player)
+			local l = player:GetAttribute("RankLevel") or 1
+			if l < 2 and not OWNERS[player.Name] then return end
+
+			local old = workspace:FindFirstChild(player.Name .. "_AcademyJeep")
+			if old then old:Destroy() end
+
+			local jeep = Instance.new("Model")
+			jeep.Name = player.Name .. "_AcademyJeep"
+
+			local seat = Instance.new("VehicleSeat")
+			seat.Name = "DriveSeat"
+			seat.Size = Vector3.new(4, 1, 4)
+			seat.Position = garage.Position + Vector3.new(0, 4, -16)
+			seat.Color = Color3.fromRGB(45, 65, 45)
+			seat.Material = Enum.Material.Metal
+			seat.MaxSpeed = 68
+			seat.Torque = 16000
+			seat.TurnSpeed = 1.6
+			seat.Parent = jeep
+
+			local body = Instance.new("Part")
+			body.Name = "Body"
+			body.Size = Vector3.new(7.4, 2.6, 14)
+			body.Position = seat.Position + Vector3.new(0, -0.5, 0)
+			body.Color = Color3.fromRGB(55, 78, 50)
+			body.Material = Enum.Material.DiamondPlate
+			body.Parent = jeep
+
+			local weld = Instance.new("WeldConstraint")
+			weld.Part0 = seat
+			weld.Part1 = body
+			weld.Parent = seat
+
+			local wheelPos = {
+				Vector3.new(-4, -1.2, -4.8),
+				Vector3.new(4, -1.2, -4.8),
+				Vector3.new(-4, -1.2, 4.8),
+				Vector3.new(4, -1.2, 4.8)
+			}
+
+			for i, off in ipairs(wheelPos) do
+				local w = Instance.new("Part")
+				w.Name = "Wheel" .. i
+				w.Shape = Enum.PartType.Cylinder
+				w.Size = Vector3.new(1.2, 3.2, 3.2)
+				w.CFrame = CFrame.new(body.Position + off) * CFrame.Angles(0, 0, math.rad(90))
+				w.Color = Color3.fromRGB(20, 20, 20)
+				w.Material = Enum.Material.Rubber
+				w.Parent = jeep
+
+				local hinge = Instance.new("HingeConstraint")
+				local a0 = Instance.new("Attachment", body)
+				a0.Position = off
+				local a1 = Instance.new("Attachment", w)
+				hinge.Attachment0 = a0
+				hinge.Attachment1 = a1
+				hinge.Parent = w
+			end
+
+			jeep.PrimaryPart = seat
+			jeep.Parent = workspace
+		end)
+	end
+end
+
+if actionEvent then
+	actionEvent.OnServerEvent:Connect(function(player, actionType, arg1)
+		if actionType == "Enroll" and (player:GetAttribute("RankLevel") or 1) == 1 then
+			setRank(player, 2)
+		elseif actionType == "Promote" and type(arg1) == "string" then
+			local l = player:GetAttribute("RankLevel") or 1
+			if l >= 6 or OWNERS[player.Name] then
+				local t = findPlayer(arg1)
+				if t then
+					local cur = t:GetAttribute("RankLevel") or 1
+					if cur < 10 then setRank(t, cur + 1) end
+				end
+			end
+		elseif actionType == "Demote" and type(arg1) == "string" then
+			local l = player:GetAttribute("RankLevel") or 1
+			if l >= 6 or OWNERS[player.Name] then
+				local t = findPlayer(arg1)
+				if t then
+					local cur = t:GetAttribute("RankLevel") or 1
+					if cur > 1 then setRank(t, cur - 1) end
+				end
+			end
+		elseif actionType == "Alert" and type(arg1) == "string" and arg1 ~= "" then
+			local l = player:GetAttribute("RankLevel") or 1
+			if (l >= 6 or OWNERS[player.Name]) and alertEvent then
+				alertEvent:FireAllClients("📢 نداء الأكاديمية (" .. player.Name .. "): " .. arg1)
+			end
+		end
+	end)
+end
+]]></ProtectedString>
+			</Properties>
+		</Item>
+	</Item>
+
+	<Item class="StarterPlayer" referent="RBX31">
+		<Properties>
+			<string name="Name">StarterPlayer</string>
+		</Properties>
+		<Item class="StarterPlayerScripts" referent="RBX32">
+			<Properties>
+				<string name="Name">StarterPlayerScripts</string>
+			</Properties>
+			<Item class="LocalScript" referent="RBX33">
+				<Properties>
+					<string name="Name">AcademyHUD</string>
+					<bool name="Disabled">false</bool>
+					<ProtectedString name="Source"><![CDATA[local Players = game:GetService("Players")
+local ReplicatedStorage = game:GetService("ReplicatedStorage")
+local TweenService = game:GetService("TweenService")
+
+local player = Players.LocalPlayer
+local playerGui = player:WaitForChild("PlayerGui")
+local remotes = ReplicatedStorage:WaitForChild("AcademyRemotes", 10)
+local actionEvent = remotes and remotes:WaitForChild("AcademyAction", 10)
+local alertEvent = remotes and remotes:WaitForChild("AcademyAlert", 10)
+
+local gui = Instance.new("ScreenGui")
+gui.Name = "MilitaryAcademyHUD"
+gui.ResetOnSpawn = false
+gui.Parent = playerGui
+
+local card = Instance.new("Frame")
+card.Size = UDim2.new(0, 235, 0, 88)
+card.Position = UDim2.new(1, -250, 0, 15)
+card.BackgroundColor3 = Color3.fromRGB(16, 22, 18)
+card.BackgroundTransparency = 0.15
+card.Parent = gui
+Instance.new("UICorner", card).CornerRadius = UDim.new(0, 12)
+local st = Instance.new("UIStroke", card)
+st.Color = Color3.fromRGB(90, 175, 100)
+st.Thickness = 2
+
+local rankLbl = Instance.new("TextLabel")
+rankLbl.Size = UDim2.new(1, -20, 0, 28)
+rankLbl.Position = UDim2.new(0, 10, 0, 10)
+rankLbl.BackgroundTransparency = 1
+rankLbl.Text = "🎖️ الرتبة: مستجد"
+rankLbl.TextColor3 = Color3.fromRGB(255, 220, 90)
+rankLbl.Font = Enum.Font.GothamBold
+rankLbl.TextSize = 15
+rankLbl.TextXAlignment = Enum.TextXAlignment.Right
+rankLbl.Parent = card
+
+local riyalLbl = Instance.new("TextLabel")
+riyalLbl.Size = UDim2.new(1, -20, 0, 28)
+riyalLbl.Position = UDim2.new(0, 10, 0, 44)
+riyalLbl.BackgroundTransparency = 1
+riyalLbl.Text = "💵 الرصيد: 0 ريال"
+riyalLbl.TextColor3 = Color3.fromRGB(120, 240, 140)
+riyalLbl.Font = Enum.Font.GothamSemibold
+riyalLbl.TextSize = 15
+riyalLbl.TextXAlignment = Enum.TextXAlignment.Right
+riyalLbl.Parent = card
+
+local enrollBtn = Instance.new("TextButton")
+enrollBtn.Size = UDim2.new(0, 180, 0, 42)
+enrollBtn.Position = UDim2.new(1, -195, 0, 114)
+enrollBtn.BackgroundColor3 = Color3.fromRGB(40, 110, 55)
+enrollBtn.Text = "🎓 انتساب للأكاديمية"
+enrollBtn.TextColor3 = Color3.fromRGB(255, 255, 255)
+enrollBtn.Font = Enum.Font.GothamBold
+enrollBtn.TextSize = 14
+enrollBtn.Parent = gui
+Instance.new("UICorner", enrollBtn).CornerRadius = UDim.new(0, 10)
+
+enrollBtn.MouseButton1Click:Connect(function()
+	if actionEvent then actionEvent:FireServer("Enroll") end
+end)
+
+local cmdBtn = Instance.new("TextButton")
+cmdBtn.Size = UDim2.new(0, 180, 0, 40)
+cmdBtn.Position = UDim2.new(1, -195, 0, 166)
+cmdBtn.BackgroundColor3 = Color3.fromRGB(30, 45, 70)
+cmdBtn.Text = "🛡️ قيادة الأكاديمية"
+cmdBtn.TextColor3 = Color3.fromRGB(255, 215, 90)
+cmdBtn.Font = Enum.Font.GothamBold
+cmdBtn.TextSize = 14
+cmdBtn.Visible = false
+cmdBtn.Parent = gui
+Instance.new("UICorner", cmdBtn).CornerRadius = UDim.new(0, 10)
+
+local panel = Instance.new("Frame")
+panel.Size = UDim2.new(0, 310, 0, 215)
+panel.Position = UDim2.new(0.5, -155, 0.5, -108)
+panel.BackgroundColor3 = Color3.fromRGB(18, 22, 28)
+panel.Visible = false
+panel.Parent = gui
+Instance.new("UICorner", panel).CornerRadius = UDim.new(0, 14)
+local pSt = Instance.new("UIStroke", panel)
+pSt.Color = Color3.fromRGB(255, 200, 70)
+pSt.Thickness = 2
+
+local inputBox = Instance.new("TextBox")
+inputBox.Size = UDim2.new(1, -30, 0, 38)
+inputBox.Position = UDim2.new(0, 15, 0, 15)
+inputBox.BackgroundColor3 = Color3.fromRGB(30, 36, 46)
+inputBox.Text = ""
+inputBox.PlaceholderText = "اسم الطالب أو نص النداء..."
+inputBox.TextColor3 = Color3.fromRGB(255, 255, 255)
+inputBox.PlaceholderColor3 = Color3.fromRGB(160, 170, 185)
+inputBox.Font = Enum.Font.Gotham
+inputBox.TextSize = 14
+inputBox.Parent = panel
+Instance.new("UICorner", inputBox).CornerRadius = UDim.new(0, 8)
+
+local upBtn = Instance.new("TextButton")
+upBtn.Size = UDim2.new(0.46, -12, 0, 38)
+upBtn.Position = UDim2.new(0, 15, 0, 64)
+upBtn.BackgroundColor3 = Color3.fromRGB(45, 130, 75)
+upBtn.Text = "⬆️ ترقية"
+upBtn.TextColor3 = Color3.fromRGB(255, 255, 255)
+upBtn.Font = Enum.Font.GothamBold
+upBtn.TextSize = 14
+upBtn.Parent = panel
+Instance.new("UICorner", upBtn).CornerRadius = UDim.new(0, 8)
+
+local downBtn = Instance.new("TextButton")
+downBtn.Size = UDim2.new(0.46, -12, 0, 38)
+downBtn.Position = UDim2.new(0.54, -3, 0, 64)
+downBtn.BackgroundColor3 = Color3.fromRGB(155, 55, 55)
+downBtn.Text = "⬇️ تنزيل"
+downBtn.TextColor3 = Color3.fromRGB(255, 255, 255)
+downBtn.Font = Enum.Font.GothamBold
+downBtn.TextSize = 14
+downBtn.Parent = panel
+Instance.new("UICorner", downBtn).CornerRadius = UDim.new(0, 8)
+
+local alertBtn = Instance.new("TextButton")
+alertBtn.Size = UDim2.new(1, -30, 0, 38)
+alertBtn.Position = UDim2.new(0, 15, 0, 114)
+alertBtn.BackgroundColor3 = Color3.fromRGB(190, 140, 25)
+alertBtn.Text = "📢 إرسال نداء للأكاديمية"
+alertBtn.TextColor3 = Color3.fromRGB(255, 255, 255)
+alertBtn.Font = Enum.Font.GothamBold
+alertBtn.TextSize = 14
+alertBtn.Parent = panel
+Instance.new("UICorner", alertBtn).CornerRadius = UDim.new(0, 8)
+
+local closeBtn = Instance.new("TextButton")
+closeBtn.Size = UDim2.new(1, -30, 0, 34)
+closeBtn.Position = UDim2.new(0, 15, 0, 164)
+closeBtn.BackgroundColor3 = Color3.fromRGB(50, 56, 66)
+closeBtn.Text = "إغلاق"
+closeBtn.TextColor3 = Color3.fromRGB(230, 235, 240)
+closeBtn.Font = Enum.Font.GothamBold
+closeBtn.TextSize = 13
+closeBtn.Parent = panel
+Instance.new("UICorner", closeBtn).CornerRadius = UDim.new(0, 8)
+
+cmdBtn.MouseButton1Click:Connect(function()
+	panel.Visible = not panel.Visible
+end)
+
+closeBtn.MouseButton1Click:Connect(function()
+	panel.Visible = false
+end)
+
+upBtn.MouseButton1Click:Connect(function()
+	if actionEvent and inputBox.Text ~= "" then
+		actionEvent:FireServer("Promote", inputBox.Text)
+	end
+end)
+
+downBtn.MouseButton1Click:Connect(function()
+	if actionEvent and inputBox.Text ~= "" then
+		actionEvent:FireServer("Demote", inputBox.Text)
+	end
+end)
+
+alertBtn.MouseButton1Click:Connect(function()
+	if actionEvent and inputBox.Text ~= "" then
+		actionEvent:FireServer("Alert", inputBox.Text)
+	end
+end)
+
+local banner = Instance.new("TextLabel")
+banner.Size = UDim2.new(0.7, 0, 0, 44)
+banner.Position = UDim2.new(0.15, 0, 0, -60)
+banner.BackgroundColor3 = Color3.fromRGB(25, 30, 38)
+banner.TextColor3 = Color3.fromRGB(255, 225, 95)
+banner.Font = Enum.Font.GothamBold
+banner.TextSize = 15
+banner.Text = ""
+banner.Visible = false
+banner.Parent = gui
+Instance.new("UICorner", banner).CornerRadius = UDim.new(0, 10)
+Instance.new("UIStroke", banner).Color = Color3.fromRGB(255, 200, 70)
+
+if alertEvent then
+	alertEvent.OnClientEvent:Connect(function(msg)
+		banner.Text = tostring(msg)
+		banner.Visible = true
+		TweenService:Create(banner, TweenInfo.new(0.4), {Position = UDim2.new(0.15, 0, 0, 16)}):Play()
+		task.wait(5)
+		TweenService:Create(banner, TweenInfo.new(0.4), {Position = UDim2.new(0.15, 0, 0, -60)}):Play()
+		task.wait(0.45)
+		banner.Visible = false
+	end)
+end
+
+local function refreshHUD()
+	local title = player:GetAttribute("RankTitle") or "مستجد"
+	local lvl = player:GetAttribute("RankLevel") or 1
+	rankLbl.Text = "🎖️ الرتبة: " .. tostring(title)
+	enrollBtn.Visible = (lvl == 1)
+	cmdBtn.Visible = (lvl >= 6)
+
+	local ls = player:FindFirstChild("leaderstats")
+	local riyal = ls and ls:FindFirstChild("ريال")
+	if riyal then
+		riyalLbl.Text = "💵 الرصيد: " .. tostring(riyal.Value) .. " ريال"
+	end
+end
+
+player:GetAttributeChangedSignal("RankTitle"):Connect(refreshHUD)
+player:GetAttributeChangedSignal("RankLevel"):Connect(refreshHUD)
+
+task.spawn(function()
+	local ls = player:WaitForChild("leaderstats", 15)
+	if ls then
+		local riyal = ls:WaitForChild("ريال", 10)
+		if riyal then riyal.Changed:Connect(refreshHUD) end
+	end
+	refreshHUD()
+end)
+]]></ProtectedString>
+				</Properties>
+			</Item>
+		</Item>
+	</Item>
+</roblox>
