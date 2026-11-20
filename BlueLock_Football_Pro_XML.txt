@@ -1,0 +1,1610 @@
+<?xml version="1.0" encoding="utf-8"?>
+<roblox version="4">
+  <Item class="DataModel" referent="RBX0">
+    <Properties><string name="Name">Game</string></Properties>
+    <Item class="Workspace" referent="RBX1">
+      <Properties>
+        <string name="Name">Workspace</string>
+        <bool name="FilteringEnabled">true</bool>
+      </Properties>
+        <Item class="Part" referent="RBX2">
+          <Properties>
+            <string name="Name">Baseplate</string>
+            <bool name="Anchored">true</bool>
+            <bool name="CanCollide">true</bool>
+            <float name="Transparency">0</float>
+            <CoordinateFrame name="CFrame">
+              <X>0</X><Y>-0.5</Y><Z>0</Z>
+              <R00>1</R00><R01>0</R01><R02>0</R02>
+              <R10>0</R10><R11>1</R11><R12>0</R12>
+              <R20>0</R20><R21>0</R21><R22>1</R22>
+            </CoordinateFrame>
+            <Vector3 name="Size"><X>512</X><Y>1</Y><Z>512</Z></Vector3>
+          </Properties>
+        </Item>
+      <Item class="Folder" referent="RBX3">
+        <Properties><string name="Name">BlueLockWorld</string></Properties>
+        <Item class="Part" referent="RBX4">
+          <Properties>
+            <string name="Name">LobbySpawn</string>
+            <bool name="Anchored">true</bool>
+            <bool name="CanCollide">true</bool>
+            <float name="Transparency">0</float>
+            <CoordinateFrame name="CFrame">
+              <X>0</X><Y>1</Y><Z>82</Z>
+              <R00>1</R00><R01>0</R01><R02>0</R02>
+              <R10>0</R10><R11>1</R11><R12>0</R12>
+              <R20>0</R20><R21>0</R21><R22>1</R22>
+            </CoordinateFrame>
+            <Vector3 name="Size"><X>20</X><Y>1</Y><Z>20</Z></Vector3>
+          </Properties>
+        </Item>
+        <Item class="Part" referent="RBX5">
+          <Properties>
+            <string name="Name">LobbyArch_Left</string>
+            <bool name="Anchored">true</bool>
+            <bool name="CanCollide">true</bool>
+            <float name="Transparency">0</float>
+            <CoordinateFrame name="CFrame">
+              <X>-12</X><Y>9</Y><Z>82</Z>
+              <R00>1</R00><R01>0</R01><R02>0</R02>
+              <R10>0</R10><R11>1</R11><R12>0</R12>
+              <R20>0</R20><R21>0</R21><R22>1</R22>
+            </CoordinateFrame>
+            <Vector3 name="Size"><X>2.5</X><Y>18</Y><Z>2.5</Z></Vector3>
+          </Properties>
+        </Item>
+        <Item class="Part" referent="RBX6">
+          <Properties>
+            <string name="Name">LobbyArch_Right</string>
+            <bool name="Anchored">true</bool>
+            <bool name="CanCollide">true</bool>
+            <float name="Transparency">0</float>
+            <CoordinateFrame name="CFrame">
+              <X>12</X><Y>9</Y><Z>82</Z>
+              <R00>1</R00><R01>0</R01><R02>0</R02>
+              <R10>0</R10><R11>1</R11><R12>0</R12>
+              <R20>0</R20><R21>0</R21><R22>1</R22>
+            </CoordinateFrame>
+            <Vector3 name="Size"><X>2.5</X><Y>18</Y><Z>2.5</Z></Vector3>
+          </Properties>
+        </Item>
+        <Item class="Part" referent="RBX7">
+          <Properties>
+            <string name="Name">LobbyArch_TopBeam</string>
+            <bool name="Anchored">true</bool>
+            <bool name="CanCollide">true</bool>
+            <float name="Transparency">0</float>
+            <CoordinateFrame name="CFrame">
+              <X>0</X><Y>19</Y><Z>82</Z>
+              <R00>1</R00><R01>0</R01><R02>0</R02>
+              <R10>0</R10><R11>1</R11><R12>0</R12>
+              <R20>0</R20><R21>0</R21><R22>1</R22>
+            </CoordinateFrame>
+            <Vector3 name="Size"><X>27</X><Y>2.5</Y><Z>3</Z></Vector3>
+          </Properties>
+        </Item>
+        <Item class="Part" referent="RBX8">
+          <Properties>
+            <string name="Name">LobbyNeonTrim</string>
+            <bool name="Anchored">true</bool>
+            <bool name="CanCollide">false</bool>
+            <float name="Transparency">0</float>
+            <CoordinateFrame name="CFrame">
+              <X>0</X><Y>19</Y><Z>80.3</Z>
+              <R00>1</R00><R01>0</R01><R02>0</R02>
+              <R10>0</R10><R11>1</R11><R12>0</R12>
+              <R20>0</R20><R21>0</R21><R22>1</R22>
+            </CoordinateFrame>
+            <Vector3 name="Size"><X>24</X><Y>0.8</Y><Z>0.5</Z></Vector3>
+          </Properties>
+        </Item>
+        <Item class="Folder" referent="RBX9">
+          <Properties><string name="Name">BlueLockMainBuilding</string></Properties>
+        <Item class="Part" referent="RBX10">
+          <Properties>
+            <string name="Name">MainTowerWall_Back</string>
+            <bool name="Anchored">true</bool>
+            <bool name="CanCollide">true</bool>
+            <float name="Transparency">0</float>
+            <CoordinateFrame name="CFrame">
+              <X>0</X><Y>24</Y><Z>-135</Z>
+              <R00>1</R00><R01>0</R01><R02>0</R02>
+              <R10>0</R10><R11>1</R11><R12>0</R12>
+              <R20>0</R20><R21>0</R21><R22>1</R22>
+            </CoordinateFrame>
+            <Vector3 name="Size"><X>160</X><Y>48</Y><Z>4</Z></Vector3>
+          </Properties>
+        </Item>
+        <Item class="Part" referent="RBX11">
+          <Properties>
+            <string name="Name">MainTowerWall_Left</string>
+            <bool name="Anchored">true</bool>
+            <bool name="CanCollide">true</bool>
+            <float name="Transparency">0</float>
+            <CoordinateFrame name="CFrame">
+              <X>-80</X><Y>24</Y><Z>-45</Z>
+              <R00>1</R00><R01>0</R01><R02>0</R02>
+              <R10>0</R10><R11>1</R11><R12>0</R12>
+              <R20>0</R20><R21>0</R21><R22>1</R22>
+            </CoordinateFrame>
+            <Vector3 name="Size"><X>4</X><Y>48</Y><Z>180</Z></Vector3>
+          </Properties>
+        </Item>
+        <Item class="Part" referent="RBX12">
+          <Properties>
+            <string name="Name">MainTowerWall_Right</string>
+            <bool name="Anchored">true</bool>
+            <bool name="CanCollide">true</bool>
+            <float name="Transparency">0</float>
+            <CoordinateFrame name="CFrame">
+              <X>80</X><Y>24</Y><Z>-45</Z>
+              <R00>1</R00><R01>0</R01><R02>0</R02>
+              <R10>0</R10><R11>1</R11><R12>0</R12>
+              <R20>0</R20><R21>0</R21><R22>1</R22>
+            </CoordinateFrame>
+            <Vector3 name="Size"><X>4</X><Y>48</Y><Z>180</Z></Vector3>
+          </Properties>
+        </Item>
+        <Item class="Part" referent="RBX13">
+          <Properties>
+            <string name="Name">BlueLockNeonStripe_Upper</string>
+            <bool name="Anchored">true</bool>
+            <bool name="CanCollide">false</bool>
+            <float name="Transparency">0</float>
+            <CoordinateFrame name="CFrame">
+              <X>0</X><Y>41</Y><Z>-132.5</Z>
+              <R00>1</R00><R01>0</R01><R02>0</R02>
+              <R10>0</R10><R11>1</R11><R12>0</R12>
+              <R20>0</R20><R21>0</R21><R22>1</R22>
+            </CoordinateFrame>
+            <Vector3 name="Size"><X>134</X><Y>2.6</Y><Z>1</Z></Vector3>
+          </Properties>
+        </Item>
+        <Item class="Part" referent="RBX14">
+          <Properties>
+            <string name="Name">BlueLockNeonStripe_Lower</string>
+            <bool name="Anchored">true</bool>
+            <bool name="CanCollide">false</bool>
+            <float name="Transparency">0</float>
+            <CoordinateFrame name="CFrame">
+              <X>0</X><Y>12</Y><Z>-132.5</Z>
+              <R00>1</R00><R01>0</R01><R02>0</R02>
+              <R10>0</R10><R11>1</R11><R12>0</R12>
+              <R20>0</R20><R21>0</R21><R22>1</R22>
+            </CoordinateFrame>
+            <Vector3 name="Size"><X>134</X><Y>1.4</Y><Z>1</Z></Vector3>
+          </Properties>
+        </Item>
+        <Item class="Part" referent="RBX15">
+          <Properties>
+            <string name="Name">ReceptionDesk</string>
+            <bool name="Anchored">true</bool>
+            <bool name="CanCollide">true</bool>
+            <float name="Transparency">0</float>
+            <CoordinateFrame name="CFrame">
+              <X>0</X><Y>2.2</Y><Z>68</Z>
+              <R00>1</R00><R01>0</R01><R02>0</R02>
+              <R10>0</R10><R11>1</R11><R12>0</R12>
+              <R20>0</R20><R21>0</R21><R22>1</R22>
+            </CoordinateFrame>
+            <Vector3 name="Size"><X>28</X><Y>4.4</Y><Z>5.5</Z></Vector3>
+          </Properties>
+        </Item>
+        <Item class="Part" referent="RBX16">
+          <Properties>
+            <string name="Name">ReceptionCounterTop</string>
+            <bool name="Anchored">true</bool>
+            <bool name="CanCollide">true</bool>
+            <float name="Transparency">0</float>
+            <CoordinateFrame name="CFrame">
+              <X>0</X><Y>4.6</Y><Z>68</Z>
+              <R00>1</R00><R01>0</R01><R02>0</R02>
+              <R10>0</R10><R11>1</R11><R12>0</R12>
+              <R20>0</R20><R21>0</R21><R22>1</R22>
+            </CoordinateFrame>
+            <Vector3 name="Size"><X>29</X><Y>0.5</Y><Z>6</Z></Vector3>
+          </Properties>
+        </Item>
+        <Item class="Part" referent="RBX17">
+          <Properties>
+            <string name="Name">WaitingHallFloor</string>
+            <bool name="Anchored">true</bool>
+            <bool name="CanCollide">true</bool>
+            <float name="Transparency">0</float>
+            <CoordinateFrame name="CFrame">
+              <X>0</X><Y>0.2</Y><Z>48</Z>
+              <R00>1</R00><R01>0</R01><R02>0</R02>
+              <R10>0</R10><R11>1</R11><R12>0</R12>
+              <R20>0</R20><R21>0</R21><R22>1</R22>
+            </CoordinateFrame>
+            <Vector3 name="Size"><X>100</X><Y>0.5</Y><Z>46</Z></Vector3>
+          </Properties>
+        </Item>
+        <Item class="Part" referent="RBX18">
+          <Properties>
+            <string name="Name">LockerRoom_Blue</string>
+            <bool name="Anchored">true</bool>
+            <bool name="CanCollide">true</bool>
+            <float name="Transparency">0</float>
+            <CoordinateFrame name="CFrame">
+              <X>-50</X><Y>6.5</Y><Z>-48</Z>
+              <R00>1</R00><R01>0</R01><R02>0</R02>
+              <R10>0</R10><R11>1</R11><R12>0</R12>
+              <R20>0</R20><R21>0</R21><R22>1</R22>
+            </CoordinateFrame>
+            <Vector3 name="Size"><X>30</X><Y>13</Y><Z>28</Z></Vector3>
+          </Properties>
+        </Item>
+        <Item class="Part" referent="RBX19">
+          <Properties>
+            <string name="Name">LockerRoom_Blue_Bench</string>
+            <bool name="Anchored">true</bool>
+            <bool name="CanCollide">true</bool>
+            <float name="Transparency">0</float>
+            <CoordinateFrame name="CFrame">
+              <X>-50</X><Y>1.5</Y><Z>-44</Z>
+              <R00>1</R00><R01>0</R01><R02>0</R02>
+              <R10>0</R10><R11>1</R11><R12>0</R12>
+              <R20>0</R20><R21>0</R21><R22>1</R22>
+            </CoordinateFrame>
+            <Vector3 name="Size"><X>16</X><Y>1.5</Y><Z>3</Z></Vector3>
+          </Properties>
+        </Item>
+        <Item class="Part" referent="RBX20">
+          <Properties>
+            <string name="Name">LockerRoom_Red</string>
+            <bool name="Anchored">true</bool>
+            <bool name="CanCollide">true</bool>
+            <float name="Transparency">0</float>
+            <CoordinateFrame name="CFrame">
+              <X>50</X><Y>6.5</Y><Z>-48</Z>
+              <R00>1</R00><R01>0</R01><R02>0</R02>
+              <R10>0</R10><R11>1</R11><R12>0</R12>
+              <R20>0</R20><R21>0</R21><R22>1</R22>
+            </CoordinateFrame>
+            <Vector3 name="Size"><X>30</X><Y>13</Y><Z>28</Z></Vector3>
+          </Properties>
+        </Item>
+        <Item class="Part" referent="RBX21">
+          <Properties>
+            <string name="Name">LockerRoom_Red_Bench</string>
+            <bool name="Anchored">true</bool>
+            <bool name="CanCollide">true</bool>
+            <float name="Transparency">0</float>
+            <CoordinateFrame name="CFrame">
+              <X>50</X><Y>1.5</Y><Z>-44</Z>
+              <R00>1</R00><R01>0</R01><R02>0</R02>
+              <R10>0</R10><R11>1</R11><R12>0</R12>
+              <R20>0</R20><R21>0</R21><R22>1</R22>
+            </CoordinateFrame>
+            <Vector3 name="Size"><X>16</X><Y>1.5</Y><Z>3</Z></Vector3>
+          </Properties>
+        </Item>
+        <Item class="Part" referent="RBX22">
+          <Properties>
+            <string name="Name">PlayerSelectionRoom</string>
+            <bool name="Anchored">true</bool>
+            <bool name="CanCollide">true</bool>
+            <float name="Transparency">0</float>
+            <CoordinateFrame name="CFrame">
+              <X>0</X><Y>6.5</Y><Z>-18</Z>
+              <R00>1</R00><R01>0</R01><R02>0</R02>
+              <R10>0</R10><R11>1</R11><R12>0</R12>
+              <R20>0</R20><R21>0</R21><R22>1</R22>
+            </CoordinateFrame>
+            <Vector3 name="Size"><X>38</X><Y>13</Y><Z>22</Z></Vector3>
+          </Properties>
+        </Item>
+        </Item>
+        <Item class="Folder" referent="RBX23">
+          <Properties><string name="Name">TrainingAndOutdoorPitches</string></Properties>
+        <Item class="Part" referent="RBX24">
+          <Properties>
+            <string name="Name">TrainingPitchTurf</string>
+            <bool name="Anchored">true</bool>
+            <bool name="CanCollide">true</bool>
+            <float name="Transparency">0</float>
+            <CoordinateFrame name="CFrame">
+              <X>-118</X><Y>0.2</Y><Z>12</Z>
+              <R00>1</R00><R01>0</R01><R02>0</R02>
+              <R10>0</R10><R11>1</R11><R12>0</R12>
+              <R20>0</R20><R21>0</R21><R22>1</R22>
+            </CoordinateFrame>
+            <Vector3 name="Size"><X>78</X><Y>0.5</Y><Z>118</Z></Vector3>
+          </Properties>
+        </Item>
+        <Item class="Part" referent="RBX25">
+          <Properties>
+            <string name="Name">TrainingGoal_North</string>
+            <bool name="Anchored">true</bool>
+            <bool name="CanCollide">true</bool>
+            <float name="Transparency">0.35</float>
+            <CoordinateFrame name="CFrame">
+              <X>-118</X><Y>4</Y><Z>-38</Z>
+              <R00>1</R00><R01>0</R01><R02>0</R02>
+              <R10>0</R10><R11>1</R11><R12>0</R12>
+              <R20>0</R20><R21>0</R21><R22>1</R22>
+            </CoordinateFrame>
+            <Vector3 name="Size"><X>16</X><Y>8</Y><Z>2</Z></Vector3>
+          </Properties>
+        </Item>
+        <Item class="Part" referent="RBX26">
+          <Properties>
+            <string name="Name">TrainingGoal_South</string>
+            <bool name="Anchored">true</bool>
+            <bool name="CanCollide">true</bool>
+            <float name="Transparency">0.35</float>
+            <CoordinateFrame name="CFrame">
+              <X>-118</X><Y>4</Y><Z>62</Z>
+              <R00>1</R00><R01>0</R01><R02>0</R02>
+              <R10>0</R10><R11>1</R11><R12>0</R12>
+              <R20>0</R20><R21>0</R21><R22>1</R22>
+            </CoordinateFrame>
+            <Vector3 name="Size"><X>16</X><Y>8</Y><Z>2</Z></Vector3>
+          </Properties>
+        </Item>
+        <Item class="Part" referent="RBX27">
+          <Properties>
+            <string name="Name">IndoorArenaFloor</string>
+            <bool name="Anchored">true</bool>
+            <bool name="CanCollide">true</bool>
+            <float name="Transparency">0</float>
+            <CoordinateFrame name="CFrame">
+              <X>118</X><Y>0.2</Y><Z>12</Z>
+              <R00>1</R00><R01>0</R01><R02>0</R02>
+              <R10>0</R10><R11>1</R11><R12>0</R12>
+              <R20>0</R20><R21>0</R21><R22>1</R22>
+            </CoordinateFrame>
+            <Vector3 name="Size"><X>78</X><Y>0.5</Y><Z>118</Z></Vector3>
+          </Properties>
+        </Item>
+        <Item class="Part" referent="RBX28">
+          <Properties>
+            <string name="Name">IndoorArenaPillar_NW</string>
+            <bool name="Anchored">true</bool>
+            <bool name="CanCollide">true</bool>
+            <float name="Transparency">0</float>
+            <CoordinateFrame name="CFrame">
+              <X>84</X><Y>14</Y><Z>-40</Z>
+              <R00>1</R00><R01>0</R01><R02>0</R02>
+              <R10>0</R10><R11>1</R11><R12>0</R12>
+              <R20>0</R20><R21>0</R21><R22>1</R22>
+            </CoordinateFrame>
+            <Vector3 name="Size"><X>4</X><Y>28</Y><Z>4</Z></Vector3>
+          </Properties>
+        </Item>
+        <Item class="Part" referent="RBX29">
+          <Properties>
+            <string name="Name">IndoorArenaPillar_NE</string>
+            <bool name="Anchored">true</bool>
+            <bool name="CanCollide">true</bool>
+            <float name="Transparency">0</float>
+            <CoordinateFrame name="CFrame">
+              <X>152</X><Y>14</Y><Z>-40</Z>
+              <R00>1</R00><R01>0</R01><R02>0</R02>
+              <R10>0</R10><R11>1</R11><R12>0</R12>
+              <R20>0</R20><R21>0</R21><R22>1</R22>
+            </CoordinateFrame>
+            <Vector3 name="Size"><X>4</X><Y>28</Y><Z>4</Z></Vector3>
+          </Properties>
+        </Item>
+        <Item class="Part" referent="RBX30">
+          <Properties>
+            <string name="Name">GiantScoreboard_West</string>
+            <bool name="Anchored">true</bool>
+            <bool name="CanCollide">true</bool>
+            <float name="Transparency">0</float>
+            <CoordinateFrame name="CFrame">
+              <X>-64</X><Y>21</Y><Z>-20</Z>
+              <R00>1</R00><R01>0</R01><R02>0</R02>
+              <R10>0</R10><R11>1</R11><R12>0</R12>
+              <R20>0</R20><R21>0</R21><R22>1</R22>
+            </CoordinateFrame>
+            <Vector3 name="Size"><X>4</X><Y>18</Y><Z>36</Z></Vector3>
+          </Properties>
+        </Item>
+        <Item class="Part" referent="RBX31">
+          <Properties>
+            <string name="Name">GiantScoreboard_East</string>
+            <bool name="Anchored">true</bool>
+            <bool name="CanCollide">true</bool>
+            <float name="Transparency">0</float>
+            <CoordinateFrame name="CFrame">
+              <X>64</X><Y>21</Y><Z>-20</Z>
+              <R00>1</R00><R01>0</R01><R02>0</R02>
+              <R10>0</R10><R11>1</R11><R12>0</R12>
+              <R20>0</R20><R21>0</R21><R22>1</R22>
+            </CoordinateFrame>
+            <Vector3 name="Size"><X>4</X><Y>18</Y><Z>36</Z></Vector3>
+          </Properties>
+        </Item>
+        </Item>
+        <Item class="Folder" referent="RBX32">
+          <Properties><string name="Name">CompetitiveStadium</string></Properties>
+        <Item class="Part" referent="RBX33">
+          <Properties>
+            <string name="Name">StadiumTurf</string>
+            <bool name="Anchored">true</bool>
+            <bool name="CanCollide">true</bool>
+            <float name="Transparency">0</float>
+            <CoordinateFrame name="CFrame">
+              <X>0</X><Y>0.2</Y><Z>0</Z>
+              <R00>1</R00><R01>0</R01><R02>0</R02>
+              <R10>0</R10><R11>1</R11><R12>0</R12>
+              <R20>0</R20><R21>0</R21><R22>1</R22>
+            </CoordinateFrame>
+            <Vector3 name="Size"><X>114</X><Y>0.5</Y><Z>78</Z></Vector3>
+          </Properties>
+        </Item>
+        <Item class="Part" referent="RBX34">
+          <Properties>
+            <string name="Name">CenterLine</string>
+            <bool name="Anchored">true</bool>
+            <bool name="CanCollide">false</bool>
+            <float name="Transparency">0.12</float>
+            <CoordinateFrame name="CFrame">
+              <X>0</X><Y>0.46</Y><Z>0</Z>
+              <R00>1</R00><R01>0</R01><R02>0</R02>
+              <R10>0</R10><R11>1</R11><R12>0</R12>
+              <R20>0</R20><R21>0</R21><R22>1</R22>
+            </CoordinateFrame>
+            <Vector3 name="Size"><X>0.9</X><Y>0.05</Y><Z>76</Z></Vector3>
+          </Properties>
+        </Item>
+        <Item class="Part" referent="RBX35">
+          <Properties>
+            <string name="Name">CenterSpot</string>
+            <bool name="Anchored">true</bool>
+            <bool name="CanCollide">false</bool>
+            <float name="Transparency">0.15</float>
+            <CoordinateFrame name="CFrame">
+              <X>0</X><Y>0.48</Y><Z>0</Z>
+              <R00>1</R00><R01>0</R01><R02>0</R02>
+              <R10>0</R10><R11>1</R11><R12>0</R12>
+              <R20>0</R20><R21>0</R21><R22>1</R22>
+            </CoordinateFrame>
+            <Vector3 name="Size"><X>3.2</X><Y>0.06</Y><Z>3.2</Z></Vector3>
+          </Properties>
+        </Item>
+        <Item class="Part" referent="RBX36">
+          <Properties>
+            <string name="Name">Touchline_North</string>
+            <bool name="Anchored">true</bool>
+            <bool name="CanCollide">true</bool>
+            <float name="Transparency">0.35</float>
+            <CoordinateFrame name="CFrame">
+              <X>0</X><Y>2</Y><Z>-39</Z>
+              <R00>1</R00><R01>0</R01><R02>0</R02>
+              <R10>0</R10><R11>1</R11><R12>0</R12>
+              <R20>0</R20><R21>0</R21><R22>1</R22>
+            </CoordinateFrame>
+            <Vector3 name="Size"><X>114</X><Y>3.5</Y><Z>1.5</Z></Vector3>
+          </Properties>
+        </Item>
+        <Item class="Part" referent="RBX37">
+          <Properties>
+            <string name="Name">Touchline_South</string>
+            <bool name="Anchored">true</bool>
+            <bool name="CanCollide">true</bool>
+            <float name="Transparency">0.35</float>
+            <CoordinateFrame name="CFrame">
+              <X>0</X><Y>2</Y><Z>39</Z>
+              <R00>1</R00><R01>0</R01><R02>0</R02>
+              <R10>0</R10><R11>1</R11><R12>0</R12>
+              <R20>0</R20><R21>0</R21><R22>1</R22>
+            </CoordinateFrame>
+            <Vector3 name="Size"><X>114</X><Y>3.5</Y><Z>1.5</Z></Vector3>
+          </Properties>
+        </Item>
+        <Item class="Part" referent="RBX38">
+          <Properties>
+            <string name="Name">PenaltyBox_Blue</string>
+            <bool name="Anchored">true</bool>
+            <bool name="CanCollide">false</bool>
+            <float name="Transparency">0.25</float>
+            <CoordinateFrame name="CFrame">
+              <X>-42</X><Y>0.46</Y><Z>0</Z>
+              <R00>1</R00><R01>0</R01><R02>0</R02>
+              <R10>0</R10><R11>1</R11><R12>0</R12>
+              <R20>0</R20><R21>0</R21><R22>1</R22>
+            </CoordinateFrame>
+            <Vector3 name="Size"><X>18</X><Y>0.05</Y><Z>36</Z></Vector3>
+          </Properties>
+        </Item>
+        <Item class="Part" referent="RBX39">
+          <Properties>
+            <string name="Name">PenaltyBox_Red</string>
+            <bool name="Anchored">true</bool>
+            <bool name="CanCollide">false</bool>
+            <float name="Transparency">0.25</float>
+            <CoordinateFrame name="CFrame">
+              <X>42</X><Y>0.46</Y><Z>0</Z>
+              <R00>1</R00><R01>0</R01><R02>0</R02>
+              <R10>0</R10><R11>1</R11><R12>0</R12>
+              <R20>0</R20><R21>0</R21><R22>1</R22>
+            </CoordinateFrame>
+            <Vector3 name="Size"><X>18</X><Y>0.05</Y><Z>36</Z></Vector3>
+          </Properties>
+        </Item>
+        <Item class="Part" referent="RBX40">
+          <Properties>
+            <string name="Name">PitchCenter</string>
+            <bool name="Anchored">true</bool>
+            <bool name="CanCollide">false</bool>
+            <float name="Transparency">0.38</float>
+            <CoordinateFrame name="CFrame">
+              <X>0</X><Y>0.6</Y><Z>0</Z>
+              <R00>1</R00><R01>0</R01><R02>0</R02>
+              <R10>0</R10><R11>1</R11><R12>0</R12>
+              <R20>0</R20><R21>0</R21><R22>1</R22>
+            </CoordinateFrame>
+            <Vector3 name="Size"><X>4.5</X><Y>0.3</Y><Z>4.5</Z></Vector3>
+          </Properties>
+        </Item>
+        <Item class="Part" referent="RBX41">
+          <Properties>
+            <string name="Name">BlueGoalZone</string>
+            <bool name="Anchored">true</bool>
+            <bool name="CanCollide">false</bool>
+            <float name="Transparency">0.62</float>
+            <CoordinateFrame name="CFrame">
+              <X>-49</X><Y>5</Y><Z>0</Z>
+              <R00>1</R00><R01>0</R01><R02>0</R02>
+              <R10>0</R10><R11>1</R11><R12>0</R12>
+              <R20>0</R20><R21>0</R21><R22>1</R22>
+            </CoordinateFrame>
+            <Vector3 name="Size"><X>6</X><Y>10</Y><Z>20</Z></Vector3>
+          </Properties>
+        </Item>
+        <Item class="Part" referent="RBX42">
+          <Properties>
+            <string name="Name">BlueGoalFrame_Top</string>
+            <bool name="Anchored">true</bool>
+            <bool name="CanCollide">true</bool>
+            <float name="Transparency">0.1</float>
+            <CoordinateFrame name="CFrame">
+              <X>-49</X><Y>10.2</Y><Z>0</Z>
+              <R00>1</R00><R01>0</R01><R02>0</R02>
+              <R10>0</R10><R11>1</R11><R12>0</R12>
+              <R20>0</R20><R21>0</R21><R22>1</R22>
+            </CoordinateFrame>
+            <Vector3 name="Size"><X>6.4</X><Y>0.7</Y><Z>20.8</Z></Vector3>
+          </Properties>
+        </Item>
+        <Item class="Part" referent="RBX43">
+          <Properties>
+            <string name="Name">RedGoalZone</string>
+            <bool name="Anchored">true</bool>
+            <bool name="CanCollide">false</bool>
+            <float name="Transparency">0.62</float>
+            <CoordinateFrame name="CFrame">
+              <X>49</X><Y>5</Y><Z>0</Z>
+              <R00>1</R00><R01>0</R01><R02>0</R02>
+              <R10>0</R10><R11>1</R11><R12>0</R12>
+              <R20>0</R20><R21>0</R21><R22>1</R22>
+            </CoordinateFrame>
+            <Vector3 name="Size"><X>6</X><Y>10</Y><Z>20</Z></Vector3>
+          </Properties>
+        </Item>
+        <Item class="Part" referent="RBX44">
+          <Properties>
+            <string name="Name">RedGoalFrame_Top</string>
+            <bool name="Anchored">true</bool>
+            <bool name="CanCollide">true</bool>
+            <float name="Transparency">0.1</float>
+            <CoordinateFrame name="CFrame">
+              <X>49</X><Y>10.2</Y><Z>0</Z>
+              <R00>1</R00><R01>0</R01><R02>0</R02>
+              <R10>0</R10><R11>1</R11><R12>0</R12>
+              <R20>0</R20><R21>0</R21><R22>1</R22>
+            </CoordinateFrame>
+            <Vector3 name="Size"><X>6.4</X><Y>0.7</Y><Z>20.8</Z></Vector3>
+          </Properties>
+        </Item>
+        <Item class="Part" referent="RBX45">
+          <Properties>
+            <string name="Name">StandTier_North</string>
+            <bool name="Anchored">true</bool>
+            <bool name="CanCollide">true</bool>
+            <float name="Transparency">0</float>
+            <CoordinateFrame name="CFrame">
+              <X>0</X><Y>7</Y><Z>-50</Z>
+              <R00>1</R00><R01>0</R01><R02>0</R02>
+              <R10>0</R10><R11>1</R11><R12>0</R12>
+              <R20>0</R20><R21>0</R21><R22>1</R22>
+            </CoordinateFrame>
+            <Vector3 name="Size"><X>122</X><Y>14</Y><Z>12</Z></Vector3>
+          </Properties>
+        </Item>
+        <Item class="Part" referent="RBX46">
+          <Properties>
+            <string name="Name">StandTier_South</string>
+            <bool name="Anchored">true</bool>
+            <bool name="CanCollide">true</bool>
+            <float name="Transparency">0</float>
+            <CoordinateFrame name="CFrame">
+              <X>0</X><Y>7</Y><Z>50</Z>
+              <R00>1</R00><R01>0</R01><R02>0</R02>
+              <R10>0</R10><R11>1</R11><R12>0</R12>
+              <R20>0</R20><R21>0</R21><R22>1</R22>
+            </CoordinateFrame>
+            <Vector3 name="Size"><X>122</X><Y>14</Y><Z>12</Z></Vector3>
+          </Properties>
+        </Item>
+        <Item class="Part" referent="RBX47">
+          <Properties>
+            <string name="Name">BlueLockBall</string>
+            <bool name="Anchored">false</bool>
+            <bool name="CanCollide">true</bool>
+            <float name="Transparency">0</float>
+            <CoordinateFrame name="CFrame">
+              <X>0</X><Y>4.2</Y><Z>0</Z>
+              <R00>1</R00><R01>0</R01><R02>0</R02>
+              <R10>0</R10><R11>1</R11><R12>0</R12>
+              <R20>0</R20><R21>0</R21><R22>1</R22>
+            </CoordinateFrame>
+            <Vector3 name="Size"><X>3.8</X><Y>3.8</Y><Z>3.8</Z></Vector3>
+          </Properties>
+        </Item>
+        <Item class="Part" referent="RBX48">
+          <Properties>
+            <string name="Name">GoalkeeperNPC</string>
+            <bool name="Anchored">true</bool>
+            <bool name="CanCollide">true</bool>
+            <float name="Transparency">0</float>
+            <CoordinateFrame name="CFrame">
+              <X>41</X><Y>3.5</Y><Z>0</Z>
+              <R00>1</R00><R01>0</R01><R02>0</R02>
+              <R10>0</R10><R11>1</R11><R12>0</R12>
+              <R20>0</R20><R21>0</R21><R22>1</R22>
+            </CoordinateFrame>
+            <Vector3 name="Size"><X>4.2</X><Y>6.2</Y><Z>4.2</Z></Vector3>
+          </Properties>
+        </Item>
+        </Item>
+      </Item>
+    </Item>
+    <Item class="ReplicatedStorage" referent="RBX49">
+      <Properties><string name="Name">ReplicatedStorage</string></Properties>
+    </Item>
+    <Item class="ServerScriptService" referent="RBX50">
+      <Properties><string name="Name">ServerScriptService</string></Properties>
+      <Item class="Script" referent="RBX51">
+        <Properties>
+          <string name="Name">BlueLockServer</string>
+          <ProtectedString name="Source"><![CDATA[local Players = game:GetService("Players")
+local DataStoreService = game:GetService("DataStoreService")
+local ReplicatedStorage = game:GetService("ReplicatedStorage")
+local RunService = game:GetService("RunService")
+local Debris = game:GetService("Debris")
+local Workspace = game:GetService("Workspace")
+
+local Remotes = ReplicatedStorage:FindFirstChild("Remotes")
+if not Remotes then
+	Remotes = Instance.new("Folder")
+	Remotes.Name = "Remotes"
+	Remotes.Parent = ReplicatedStorage
+end
+
+local function ensureRemote(className, name)
+	local obj = Remotes:FindFirstChild(name)
+	if not obj then
+		obj = Instance.new(className)
+		obj.Name = name
+		obj.Parent = Remotes
+	end
+	return obj
+end
+
+local BallActionEvent = ensureRemote("RemoteEvent", "BallActionEvent")
+local UseSkillEvent = ensureRemote("RemoteEvent", "UseSkillEvent")
+local SkillVFXEvent = ensureRemote("RemoteEvent", "SkillVFXEvent")
+local TeamSelectEvent = ensureRemote("RemoteEvent", "TeamSelectEvent")
+local MatchmakingEvent = ensureRemote("RemoteEvent", "MatchmakingEvent")
+local MatchStateEvent = ensureRemote("RemoteEvent", "MatchStateEvent")
+local UpdateProfileEvent = ensureRemote("RemoteEvent", "UpdateProfileEvent")
+local SyncCatalogEvent = ensureRemote("RemoteEvent", "SyncCatalogEvent")
+local SelectCharacterRemote = ensureRemote("RemoteFunction", "SelectCharacterRemote")
+local EquipSkillRemote = ensureRemote("RemoteFunction", "EquipSkillRemote")
+local ClaimRewardRemote = ensureRemote("RemoteFunction", "ClaimRewardRemote")
+
+local world = Workspace:FindFirstChild("BlueLockWorld")
+local stadium = world and world:FindFirstChild("CompetitiveStadium")
+local ball = stadium and stadium:FindFirstChild("BlueLockBall")
+local blueGoal = stadium and stadium:FindFirstChild("BlueGoalZone")
+local redGoal = stadium and stadium:FindFirstChild("RedGoalZone")
+local gk = stadium and stadium:FindFirstChild("GoalkeeperNPC")
+local center = stadium and stadium:FindFirstChild("PitchCenter")
+local lobbySpawn = world and world:FindFirstChild("LobbySpawn")
+
+local CharactersCatalog = {
+	{
+		Id = "isagi_style",
+		ArabicName = "مهاجم الرؤية (إيساجي)",
+		Icon = "⚽",
+		Rarity = "SSR",
+		Stats = { Speed = 89, ShotPower = 87, BallControl = 92, Dribbling = 90 }
+	},
+	{
+		Id = "bachira_style",
+		ArabicName = "مراوغ الوحش (باتشيرا)",
+		Icon = "🌀",
+		Rarity = "SSR",
+		Stats = { Speed = 94, ShotPower = 82, BallControl = 98, Dribbling = 99 }
+	},
+	{
+		Id = "barou_style",
+		ArabicName = "الملك الطاغية (بارو)",
+		Icon = "👑",
+		Rarity = "UR",
+		Stats = { Speed = 91, ShotPower = 99, BallControl = 87, Dribbling = 88 }
+	},
+	{
+		Id = "chigiri_style",
+		ArabicName = "الفهد الأحمر (تشيجيري)",
+		Icon = "⚡",
+		Rarity = "SR",
+		Stats = { Speed = 99, ShotPower = 84, BallControl = 88, Dribbling = 93 }
+	},
+	{
+		Id = "rin_style",
+		ArabicName = "العبقري الدقيق (رين)",
+		Icon = "🎯",
+		Rarity = "UR",
+		Stats = { Speed = 94, ShotPower = 97, BallControl = 96, Dribbling = 95 }
+	},
+	{
+		Id = "nagi_style",
+		ArabicName = "السيطرة الفطرية (ناجي)",
+		Icon = "🪶",
+		Rarity = "SSR",
+		Stats = { Speed = 86, ShotPower = 91, BallControl = 99, Dribbling = 92 }
+	}
+}
+
+local SkillsCatalog = {
+	DirectShot = {
+		Id = "DirectShot",
+		ArabicName = "التسديدة المباشرة",
+		Icon = "🎯",
+		Cooldown = 4.5,
+		Kick = 152,
+		Up = 17,
+		Curve = 0,
+		Color = Color3.fromRGB(56, 189, 248)
+	},
+	CurveShot = {
+		Id = "CurveShot",
+		ArabicName = "التسديدة المنحنية",
+		Icon = "🌙",
+		Cooldown = 6.0,
+		Kick = 136,
+		Up = 23,
+		Curve = 62,
+		Color = Color3.fromRGB(129, 140, 248)
+	},
+	PowerShot = {
+		Id = "PowerShot",
+		ArabicName = "التسديدة الصاروخية",
+		Icon = "💥",
+		Cooldown = 7.0,
+		Kick = 192,
+		Up = 15,
+		Curve = 8,
+		Color = Color3.fromRGB(248, 113, 113)
+	},
+	Dribbling = {
+		Id = "Dribbling",
+		ArabicName = "مراوغة الخداع",
+		Icon = "🕺",
+		Cooldown = 4.0,
+		Dash = 78,
+		Color = Color3.fromRGB(250, 204, 21)
+	},
+	Dash = {
+		Id = "Dash",
+		ArabicName = "اندفاع السرعة",
+		Icon = "⚡",
+		Cooldown = 3.2,
+		Dash = 90,
+		Color = Color3.fromRGB(34, 211, 238)
+	},
+	Awakening = {
+		Id = "Awakening",
+		ArabicName = "صحوة الأنا",
+		Icon = "🔥",
+		Cooldown = 22.0,
+		Bonus = 12,
+		Color = Color3.fromRGB(251, 113, 133)
+	}
+}
+
+local PlayerStore = nil
+pcall(function()
+	PlayerStore = DataStoreService:GetDataStore("BlueLock_ProXML_v2")
+end)
+
+local Profiles = {}
+local Teams = {}
+local Cooldowns = {}
+local scoreBlue = 0
+local scoreRed = 0
+local matchActive = false
+local timeLeft = 180
+local ballOwner = nil
+local goalLock = false
+
+local function findChar(charId)
+	for _, c in ipairs(CharactersCatalog) do
+		if c.Id == charId then
+			return c
+		end
+	end
+	return CharactersCatalog[1]
+end
+
+local function syncProfile(player, prof)
+	local ls = player:FindFirstChild("leaderstats")
+	if ls then
+		local lvl = ls:FindFirstChild("Level")
+		local wins = ls:FindFirstChild("Wins")
+		local riyal = ls:FindFirstChild("ريال")
+		if lvl then lvl.Value = prof.Level end
+		if wins then wins.Value = prof.Wins end
+		if riyal then riyal.Value = prof.Riyal end
+	end
+	UpdateProfileEvent:FireClient(player, prof)
+end
+
+local function grantRewards(player, xpGain, riyalGain, wonMatch)
+	local prof = Profiles[player.UserId]
+	if not prof then return end
+	prof.XP = prof.XP + math.max(0, math.floor(xpGain or 0))
+	prof.Riyal = prof.Riyal + math.max(0, math.floor(riyalGain or 0))
+	if wonMatch then
+		prof.Wins = prof.Wins + 1
+	end
+	local reqXP = prof.Level * 150
+	while prof.XP >= reqXP do
+		prof.XP = prof.XP - reqXP
+		prof.Level = prof.Level + 1
+		prof.Riyal = prof.Riyal + 150
+		reqXP = prof.Level * 150
+	end
+	syncProfile(player, prof)
+end
+
+local function applyCharacterSpeed(player, charId)
+	local cData = findChar(charId)
+	local hum = player.Character and player.Character:FindFirstChildOfClass("Humanoid")
+	if hum then
+		hum.WalkSpeed = math.clamp(16 + ((cData.Stats.Speed - 75) * 0.36), 14, 28)
+	end
+end
+
+local function broadcastState(statusText)
+	MatchStateEvent:FireAllClients({
+		Active = matchActive,
+		TimeRemaining = timeLeft,
+		BlueScore = scoreBlue,
+		RedScore = scoreRed,
+		Status = statusText or (matchActive and "LIVE MATCH" or "LOBBY READY"),
+		OwnerName = ballOwner and ballOwner.Name or "Free"
+	})
+end
+
+local function resetBall()
+	ballOwner = nil
+	if ball and center then
+		ball.Anchored = false
+		ball.AssemblyLinearVelocity = Vector3.zero
+		ball.AssemblyAngularVelocity = Vector3.zero
+		ball.CFrame = CFrame.new(center.Position + Vector3.new(0, 4.2, 0))
+	end
+end
+
+local function onPlayerAdded(player)
+	local prof = {
+		Level = 1,
+		XP = 0,
+		Wins = 0,
+		Riyal = 750,
+		SelectedCharacter = "isagi_style",
+		EquippedSkills = {"DirectShot", "Dribbling", "Dash", "Awakening"},
+		UnlockedCharacters = {"isagi_style", "bachira_style", "chigiri_style"},
+		LastClaim = 0,
+		SFXEnabled = true
+	}
+	if PlayerStore then
+		local ok, saved = pcall(function()
+			return PlayerStore:GetAsync("Player_" .. tostring(player.UserId))
+		end)
+		if ok and type(saved) == "table" then
+			for k, v in pairs(saved) do
+				prof[k] = v
+			end
+		end
+	end
+	Profiles[player.UserId] = prof
+	Teams[player.UserId] = "Lobby"
+
+	local ls = Instance.new("Folder")
+	ls.Name = "leaderstats"
+	ls.Parent = player
+
+	local lvl = Instance.new("IntValue")
+	lvl.Name = "Level"
+	lvl.Value = prof.Level
+	lvl.Parent = ls
+
+	local wins = Instance.new("IntValue")
+	wins.Name = "Wins"
+	wins.Value = prof.Wins
+	wins.Parent = ls
+
+	local riyal = Instance.new("IntValue")
+	riyal.Name = "ريال"
+	riyal.Value = prof.Riyal
+	riyal.Parent = ls
+
+	SyncCatalogEvent:FireClient(player, CharactersCatalog, SkillsCatalog)
+	syncProfile(player, prof)
+	player.CharacterAdded:Connect(function()
+		task.wait(0.2)
+		applyCharacterSpeed(player, prof.SelectedCharacter)
+	end)
+	applyCharacterSpeed(player, prof.SelectedCharacter)
+	broadcastState()
+end
+
+local function onPlayerRemoving(player)
+	local prof = Profiles[player.UserId]
+	if prof and PlayerStore then
+		pcall(function()
+			PlayerStore:SetAsync("Player_" .. tostring(player.UserId), prof)
+		end)
+	end
+	Profiles[player.UserId] = nil
+	Teams[player.UserId] = nil
+	Cooldowns[player.UserId] = nil
+end
+
+SelectCharacterRemote.OnServerInvoke = function(player, charId)
+	local prof = Profiles[player.UserId]
+	if not prof or type(charId) ~= "string" then
+		return false, "طلب غير صالح"
+	end
+	local cData = findChar(charId)
+	local owned = false
+	for _, id in ipairs(prof.UnlockedCharacters) do
+		if id == charId then
+			owned = true
+			break
+		end
+	end
+	if not owned then
+		local price = (cData.Rarity == "UR") and 1200 or (cData.Rarity == "SSR" and 750 or 450)
+		if prof.Riyal < price then
+			return false, "رصيد ريال غير كافٍ (" .. tostring(price) .. ")"
+		end
+		prof.Riyal = prof.Riyal - price
+		table.insert(prof.UnlockedCharacters, charId)
+	end
+	prof.SelectedCharacter = charId
+	applyCharacterSpeed(player, charId)
+	syncProfile(player, prof)
+	return true, "تم تفعيل " .. cData.ArabicName
+end
+
+EquipSkillRemote.OnServerInvoke = function(player, slotIndex, skillId)
+	local prof = Profiles[player.UserId]
+	if not prof or type(slotIndex) ~= "number" or not SkillsCatalog[skillId] then
+		return false, "اختيار غير صالح"
+	end
+	prof.EquippedSkills[slotIndex] = skillId
+	syncProfile(player, prof)
+	return true, "تم تجهيز " .. SkillsCatalog[skillId].ArabicName
+end
+
+ClaimRewardRemote.OnServerInvoke = function(player)
+	local prof = Profiles[player.UserId]
+	if not prof then
+		return false, "غير متاح"
+	end
+	if os.time() - (prof.LastClaim or 0) < 30 then
+		return false, "انتظر قليلاً قبل إعادة الاستلام"
+	end
+	prof.LastClaim = os.time()
+	grantRewards(player, 120, 300, false)
+	return true, "تم استلام +300 ريال و +120 XP"
+end
+
+local function teleportPlayer(player, teamName)
+	Teams[player.UserId] = teamName
+	local root = player.Character and player.Character:FindFirstChild("HumanoidRootPart")
+	if root then
+		if teamName == "Blue" and center then
+			root.CFrame = CFrame.new(center.Position + Vector3.new(-26, 4.2, 0))
+		elseif teamName == "Red" and center then
+			root.CFrame = CFrame.new(center.Position + Vector3.new(26, 4.2, 0))
+		elseif lobbySpawn then
+			root.CFrame = lobbySpawn.CFrame + Vector3.new(0, 3.5, 0)
+		end
+	end
+	broadcastState()
+end
+
+TeamSelectEvent.OnServerEvent:Connect(function(player, teamName)
+	if teamName == "Blue" or teamName == "Red" or teamName == "Lobby" then
+		teleportPlayer(player, teamName)
+	end
+end)
+
+MatchmakingEvent.OnServerEvent:Connect(function(player, action)
+	if action == "JoinQueue" then
+		teleportPlayer(player, "Blue")
+		if not matchActive then
+			matchActive = true
+			timeLeft = 180
+			scoreBlue = 0
+			scoreRed = 0
+			resetBall()
+		end
+		broadcastState("LIVE MATCH")
+	elseif action == "LeaveToLobby" then
+		teleportPlayer(player, "Lobby")
+	end
+end)
+
+BallActionEvent.OnServerEvent:Connect(function(player, act)
+	local root = player.Character and player.Character:FindFirstChild("HumanoidRootPart")
+	if not root or not ball then return end
+	if act == "Claim" and (ball.Position - root.Position).Magnitude <= 14 and not ballOwner then
+		ballOwner = player
+	elseif act == "Pass" and ballOwner == player then
+		ballOwner = nil
+		player:SetAttribute("BallCD", os.clock() + 0.35)
+		ball.AssemblyLinearVelocity = (root.CFrame.LookVector * 80) + Vector3.new(0, 12, 0)
+	elseif act == "Shoot" and ballOwner == player then
+		ballOwner = nil
+		player:SetAttribute("BallCD", os.clock() + 0.45)
+		ball.AssemblyLinearVelocity = (root.CFrame.LookVector * 135) + Vector3.new(0, 18, 0)
+	elseif act == "Tackle" and (ball.Position - root.Position).Magnitude <= 14 then
+		ballOwner = player
+		ball.AssemblyLinearVelocity = (root.CFrame.LookVector * 48) + Vector3.new(0, 10, 0)
+	end
+	broadcastState()
+end)
+
+UseSkillEvent.OnServerEvent:Connect(function(player, skillId)
+	local sk = SkillsCatalog[skillId or "DirectShot"] or SkillsCatalog.DirectShot
+	Cooldowns[player.UserId] = Cooldowns[player.UserId] or {}
+	if os.clock() - (Cooldowns[player.UserId][sk.Id] or 0) < sk.Cooldown * 0.9 then
+		return
+	end
+	Cooldowns[player.UserId][sk.Id] = os.clock()
+
+	local root = player.Character and player.Character:FindFirstChild("HumanoidRootPart")
+	local hum = player.Character and player.Character:FindFirstChildOfClass("Humanoid")
+	if not root or not hum then return end
+
+	local aura = Instance.new("Part")
+	aura.Shape = Enum.PartType.Ball
+	aura.Material = Enum.Material.Neon
+	aura.Color = sk.Color
+	aura.Transparency = 0.42
+	aura.CanCollide = false
+	aura.Massless = true
+	aura.Size = Vector3.new(7.5, 7.5, 7.5)
+	aura.CFrame = root.CFrame
+	aura.Parent = Workspace
+	local weld = Instance.new("WeldConstraint")
+	weld.Part0 = root
+	weld.Part1 = aura
+	weld.Parent = aura
+	Debris:AddItem(aura, 1.15)
+	SkillVFXEvent:FireAllClients(player, sk.Id, sk.Color, "rbxassetid://12222216")
+
+	if sk.Kick and ball and (ball.Position - root.Position).Magnitude <= 15 then
+		ballOwner = nil
+		player:SetAttribute("BallCD", os.clock() + 0.45)
+		ball.AssemblyLinearVelocity = (root.CFrame.LookVector * sk.Kick)
+			+ Vector3.new(0, sk.Up or 16, 0)
+			+ (root.CFrame.RightVector * (sk.Curve or 0))
+	end
+	if sk.Dash then
+		local bv = Instance.new("BodyVelocity")
+		bv.MaxForce = Vector3.new(1e5, 0, 1e5)
+		bv.Velocity = root.CFrame.LookVector * sk.Dash
+		bv.Parent = root
+		Debris:AddItem(bv, 0.5)
+	end
+	if sk.Bonus then
+		hum.WalkSpeed = hum.WalkSpeed + sk.Bonus
+		task.delay(10, function()
+			if hum and hum.Parent then
+				hum.WalkSpeed = math.max(16, hum.WalkSpeed - sk.Bonus)
+			end
+		end)
+	end
+end)
+
+if ball then
+	ball.Touched:Connect(function(hit)
+		local plr = Players:GetPlayerFromCharacter(hit.Parent)
+		if plr and not ballOwner and os.clock() > (plr:GetAttribute("BallCD") or 0) then
+			ballOwner = plr
+			broadcastState()
+		end
+	end)
+end
+
+local function onGoalScored(side)
+	if goalLock then return end
+	goalLock = true
+	if side == "Blue" then
+		scoreBlue = scoreBlue + 1
+	else
+		scoreRed = scoreRed + 1
+	end
+	broadcastState("GOAL! (" .. side .. ")")
+	task.wait(1.6)
+	resetBall()
+	goalLock = false
+	broadcastState()
+end
+
+if blueGoal then
+	blueGoal.Touched:Connect(function(hit)
+		if hit == ball and matchActive then
+			onGoalScored("Red")
+		end
+	end)
+end
+
+if redGoal then
+	redGoal.Touched:Connect(function(hit)
+		if hit == ball and matchActive then
+			onGoalScored("Blue")
+		end
+	end)
+end
+
+RunService.Heartbeat:Connect(function(dt)
+	if ballOwner and ball then
+		local root = ballOwner.Character and ballOwner.Character:FindFirstChild("HumanoidRootPart")
+		if root and root.Parent then
+			local targetPos = root.Position + (root.CFrame.LookVector * 3.9) - Vector3.new(0, 1.1, 0)
+			ball.CFrame = CFrame.new(ball.Position:Lerp(targetPos, math.clamp(dt * 18, 0, 1)))
+			ball.AssemblyLinearVelocity = Vector3.zero
+		else
+			ballOwner = nil
+		end
+	end
+	if gk and ball and center then
+		local clampedZ = math.clamp(ball.Position.Z, center.Position.Z - 16, center.Position.Z + 16)
+		gk.CFrame = CFrame.new(gk.Position:Lerp(Vector3.new(41, 3.5, clampedZ), math.clamp(dt * 6.5, 0, 1)))
+		if (ball.Position - gk.Position).Magnitude < 6.5 then
+			ballOwner = nil
+			ball.AssemblyLinearVelocity = Vector3.new(-1, 0.35, (math.random() - 0.5) * 0.6).Unit * 88
+		end
+	end
+end)
+
+task.spawn(function()
+	while true do
+		task.wait(1)
+		if matchActive then
+			timeLeft = math.max(0, timeLeft - 1)
+			if timeLeft <= 0 then
+				matchActive = false
+				resetBall()
+				for _, plr in ipairs(Players:GetPlayers()) do
+					grantRewards(plr, 180, 250, true)
+				end
+				broadcastState("FULL TIME")
+				task.wait(2.5)
+			end
+			broadcastState()
+		end
+	end
+end)
+
+Players.PlayerAdded:Connect(onPlayerAdded)
+Players.PlayerRemoving:Connect(onPlayerRemoving)
+for _, plr in ipairs(Players:GetPlayers()) do
+	task.spawn(onPlayerAdded, plr)
+end]]></ProtectedString>
+        </Properties>
+      </Item>
+    </Item>
+    <Item class="StarterGui" referent="RBX52">
+      <Properties><string name="Name">StarterGui</string></Properties>
+      <Item class="LocalScript" referent="RBX53">
+        <Properties>
+          <string name="Name">BlueLockClient</string>
+          <ProtectedString name="Source"><![CDATA[local Players = game:GetService("Players")
+local ReplicatedStorage = game:GetService("ReplicatedStorage")
+local TweenService = game:GetService("TweenService")
+local SoundService = game:GetService("SoundService")
+local UserInputService = game:GetService("UserInputService")
+
+local player = Players.LocalPlayer
+local playerGui = player:WaitForChild("PlayerGui")
+local Remotes = ReplicatedStorage:WaitForChild("Remotes")
+
+local BallActionEvent = Remotes:WaitForChild("BallActionEvent")
+local UseSkillEvent = Remotes:WaitForChild("UseSkillEvent")
+local SkillVFXEvent = Remotes:WaitForChild("SkillVFXEvent")
+local TeamSelectEvent = Remotes:WaitForChild("TeamSelectEvent")
+local MatchmakingEvent = Remotes:WaitForChild("MatchmakingEvent")
+local MatchStateEvent = Remotes:WaitForChild("MatchStateEvent")
+local UpdateProfileEvent = Remotes:WaitForChild("UpdateProfileEvent")
+local SyncCatalogEvent = Remotes:WaitForChild("SyncCatalogEvent")
+local SelectCharacterRemote = Remotes:WaitForChild("SelectCharacterRemote")
+local EquipSkillRemote = Remotes:WaitForChild("EquipSkillRemote")
+local ClaimRewardRemote = Remotes:WaitForChild("ClaimRewardRemote")
+
+local chars = {}
+local skills = {}
+local prof = {
+	Level = 1,
+	XP = 0,
+	Wins = 0,
+	Riyal = 750,
+	SelectedCharacter = "isagi_style",
+	EquippedSkills = {"DirectShot", "Dribbling", "Dash", "Awakening"},
+	SFXEnabled = true
+}
+
+local function playSFX(soundId)
+	if prof.SFXEnabled == false then return end
+	local s = Instance.new("Sound")
+	s.SoundId = soundId or "rbxassetid://12221967"
+	s.Volume = 0.45
+	s.Parent = SoundService
+	s.PlayOnRemove = true
+	s:Destroy()
+end
+
+local function applyCardStyle(inst, radius, strokeColor, gradA, gradB)
+	if radius then
+		local c = Instance.new("UICorner")
+		c.CornerRadius = UDim.new(0, radius)
+		c.Parent = inst
+	end
+	if strokeColor then
+		local st = Instance.new("UIStroke")
+		st.Color = strokeColor
+		st.Thickness = 1.6
+		st.Transparency = 0.15
+		st.Parent = inst
+	end
+	if gradA and gradB then
+		local g = Instance.new("UIGradient")
+		g.Color = ColorSequence.new(gradA, gradB)
+		g.Rotation = 90
+		g.Parent = inst
+	end
+end
+
+local gui = Instance.new("ScreenGui")
+gui.Name = "BlueLockStudioUI"
+gui.ResetOnSpawn = false
+gui.IgnoreGuiInset = true
+gui.Parent = playerGui
+
+local scale = Instance.new("UIScale")
+scale.Parent = gui
+local function refreshScale()
+	local vp = workspace.CurrentCamera and workspace.CurrentCamera.ViewportSize or Vector2.new(1280, 720)
+	scale.Scale = math.clamp(math.min(vp.X / 1280, vp.Y / 720), 0.72, 1.25)
+end
+refreshScale()
+if workspace.CurrentCamera then
+	workspace.CurrentCamera:GetPropertyChangedSignal("ViewportSize"):Connect(refreshScale)
+end
+
+local hud = Instance.new("Frame")
+hud.Size = UDim2.new(0, 580, 0, 62)
+hud.Position = UDim2.new(0.5, -290, 0, 14)
+hud.BackgroundColor3 = Color3.fromRGB(15, 23, 42)
+hud.BackgroundTransparency = 0.08
+hud.Parent = gui
+applyCardStyle(hud, 16, Color3.fromRGB(56, 189, 248), Color3.fromRGB(15, 23, 42), Color3.fromRGB(23, 37, 84))
+
+local scoreLbl = Instance.new("TextLabel")
+scoreLbl.Size = UDim2.new(1, 0, 0, 34)
+scoreLbl.BackgroundTransparency = 1
+scoreLbl.Font = Enum.Font.GothamBold
+scoreLbl.TextSize = 18
+scoreLbl.TextColor3 = Color3.fromRGB(248, 250, 252)
+scoreLbl.Text = "🔵 BLUE 0  -  0 RED 🔴  |  ⏱ 03:00"
+scoreLbl.Parent = hud
+
+local subLbl = Instance.new("TextLabel")
+subLbl.Size = UDim2.new(1, 0, 0, 22)
+subLbl.Position = UDim2.new(0, 0, 0, 34)
+subLbl.BackgroundTransparency = 1
+subLbl.Font = Enum.Font.GothamSemibold
+subLbl.TextSize = 12
+subLbl.TextColor3 = Color3.fromRGB(125, 211, 252)
+subLbl.Text = "BLUE LOCK  •  LOBBY READY  •  BALL: Free"
+subLbl.Parent = hud
+
+local nav = Instance.new("ScrollingFrame")
+nav.Size = UDim2.new(0, 184, 0, 360)
+nav.Position = UDim2.new(0, 16, 0.5, -180)
+nav.BackgroundColor3 = Color3.fromRGB(11, 17, 32)
+nav.BackgroundTransparency = 0.08
+nav.ScrollBarThickness = 3
+nav.Parent = gui
+applyCardStyle(nav, 16, Color3.fromRGB(59, 130, 246), Color3.fromRGB(11, 17, 32), Color3.fromRGB(17, 24, 39))
+
+local navLayout = Instance.new("UIListLayout")
+navLayout.Padding = UDim.new(0, 7)
+navLayout.Parent = nav
+
+local navPad = Instance.new("UIPadding")
+navPad.PaddingTop = UDim.new(0, 10)
+navPad.PaddingBottom = UDim.new(0, 10)
+navPad.PaddingLeft = UDim.new(0, 10)
+navPad.PaddingRight = UDim.new(0, 10)
+navPad.Parent = nav
+
+local win = Instance.new("Frame")
+win.Size = UDim2.new(0, 520, 0, 350)
+win.Position = UDim2.new(0.5, -215, 0.5, -165)
+win.BackgroundColor3 = Color3.fromRGB(15, 23, 42)
+win.BackgroundTransparency = 0.04
+win.Visible = false
+win.Parent = gui
+applyCardStyle(win, 18, Color3.fromRGB(244, 63, 94), Color3.fromRGB(15, 23, 42), Color3.fromRGB(30, 41, 59))
+
+local winTitle = Instance.new("TextLabel")
+winTitle.Size = UDim2.new(1, -76, 0, 42)
+winTitle.Position = UDim2.new(0, 16, 0, 8)
+winTitle.BackgroundTransparency = 1
+winTitle.Font = Enum.Font.GothamBold
+winTitle.TextSize = 18
+winTitle.TextXAlignment = Enum.TextXAlignment.Left
+winTitle.TextColor3 = Color3.fromRGB(248, 250, 252)
+winTitle.Text = "BLUE LOCK"
+winTitle.Parent = win
+
+local closeBtn = Instance.new("TextButton")
+closeBtn.Size = UDim2.new(0, 36, 0, 36)
+closeBtn.Position = UDim2.new(1, -48, 0, 10)
+closeBtn.BackgroundColor3 = Color3.fromRGB(225, 29, 72)
+closeBtn.Font = Enum.Font.GothamBold
+closeBtn.TextSize = 15
+closeBtn.TextColor3 = Color3.fromRGB(255, 255, 255)
+closeBtn.Text = "✕"
+closeBtn.Parent = win
+applyCardStyle(closeBtn, 10, nil, nil, nil)
+closeBtn.MouseButton1Click:Connect(function()
+	playSFX()
+	win.Visible = false
+end)
+
+local body = Instance.new("ScrollingFrame")
+body.Size = UDim2.new(1, -28, 1, -60)
+body.Position = UDim2.new(0, 14, 0, 52)
+body.BackgroundTransparency = 1
+body.ScrollBarThickness = 4
+body.Parent = win
+
+local bodyLayout = Instance.new("UIListLayout")
+bodyLayout.Padding = UDim.new(0, 8)
+bodyLayout.Parent = body
+
+local function clearBody()
+	for _, ch in ipairs(body:GetChildren()) do
+		if not ch:IsA("UIListLayout") then
+			ch:Destroy()
+		end
+	end
+end
+
+local function addInfoCard(txt)
+	local card = Instance.new("Frame")
+	card.Size = UDim2.new(1, -6, 0, 42)
+	card.BackgroundColor3 = Color3.fromRGB(30, 41, 59)
+	card.Parent = body
+	applyCardStyle(card, 10, Color3.fromRGB(56, 189, 248), nil, nil)
+	local l = Instance.new("TextLabel")
+	l.Size = UDim2.new(1, -16, 1, 0)
+	l.Position = UDim2.new(0, 8, 0, 0)
+	l.BackgroundTransparency = 1
+	l.Font = Enum.Font.GothamSemibold
+	l.TextSize = 14
+	l.TextXAlignment = Enum.TextXAlignment.Left
+	l.TextColor3 = Color3.fromRGB(241, 245, 249)
+	l.Text = txt
+	l.Parent = card
+end
+
+local function addMenuBtn(txt, cb)
+	local b = Instance.new("TextButton")
+	b.Size = UDim2.new(1, 0, 0, 42)
+	b.BackgroundColor3 = Color3.fromRGB(29, 78, 216)
+	b.Font = Enum.Font.GothamBold
+	b.TextSize = 13
+	b.TextColor3 = Color3.fromRGB(248, 250, 252)
+	b.Text = txt
+	b.Parent = nav
+	applyCardStyle(b, 10, Color3.fromRGB(125, 211, 252), Color3.fromRGB(30, 58, 138), Color3.fromRGB(29, 78, 216))
+	b.MouseButton1Click:Connect(function()
+		playSFX()
+		cb()
+	end)
+end
+
+local function addWinBtn(txt, col, cb)
+	local b = Instance.new("TextButton")
+	b.Size = UDim2.new(1, -6, 0, 42)
+	b.BackgroundColor3 = col
+	b.Font = Enum.Font.GothamBold
+	b.TextSize = 13
+	b.TextColor3 = Color3.fromRGB(255, 255, 255)
+	b.Text = txt
+	b.Parent = body
+	applyCardStyle(b, 10, Color3.fromRGB(226, 232, 240), nil, nil)
+	b.MouseButton1Click:Connect(function()
+		playSFX()
+		TweenService:Create(b, TweenInfo.new(0.12), {BackgroundColor3 = Color3.fromRGB(56, 189, 248)}):Play()
+		task.delay(0.12, function()
+			if b and b.Parent then
+				b.BackgroundColor3 = col
+			end
+		end)
+		cb(b)
+	end)
+end
+
+addMenuBtn("⚽ Play & Match", function()
+	clearBody()
+	winTitle.Text = "BLUE LOCK  |  PLAY"
+	win.Visible = true
+	addInfoCard("⚡ رصيدك الحالي: " .. tostring(prof.Riyal) .. " ريال  |  الفوز: " .. tostring(prof.Wins))
+	addWinBtn("⚽ دخول المباراة (PLAY NOW)", Color3.fromRGB(37, 99, 235), function()
+		MatchmakingEvent:FireServer("JoinQueue")
+		win.Visible = false
+	end)
+	addWinBtn("🔵 الانتقال لفريق BLUE", Color3.fromRGB(29, 78, 216), function()
+		TeamSelectEvent:FireServer("Blue")
+	end)
+	addWinBtn("🔴 الانتقال لفريق RED", Color3.fromRGB(185, 28, 28), function()
+		TeamSelectEvent:FireServer("Red")
+	end)
+	addWinBtn("🏛️ العودة للوبي", Color3.fromRGB(71, 85, 105), function()
+		MatchmakingEvent:FireServer("LeaveToLobby")
+	end)
+end)
+
+addMenuBtn("👤 Characters", function()
+	clearBody()
+	winTitle.Text = "BLUE LOCK  |  CHARACTERS"
+	win.Visible = true
+	for _, c in ipairs(chars) do
+		local tag = c.Icon .. " " .. c.ArabicName .. " [" .. c.Rarity .. "] | SPD " .. tostring(c.Stats.Speed)
+		addWinBtn(tag, Color3.fromRGB(30, 41, 59), function(btn)
+			local ok, msg = SelectCharacterRemote:InvokeServer(c.Id)
+			btn.Text = (ok and "✅ " or "⚠️ ") .. tostring(msg)
+		end)
+	end
+end)
+
+addMenuBtn("⚡ Skills", function()
+	clearBody()
+	winTitle.Text = "BLUE LOCK  |  SKILLS"
+	win.Visible = true
+	for id, sk in pairs(skills) do
+		addWinBtn(sk.Icon .. " " .. sk.ArabicName .. " (" .. tostring(sk.Cooldown) .. "s)", Color3.fromRGB(30, 41, 59), function(btn)
+			local ok, msg = EquipSkillRemote:InvokeServer(1, id)
+			btn.Text = (ok and "✅ " or "⚠️ ") .. tostring(msg)
+		end)
+	end
+end)
+
+addMenuBtn("🎁 Rewards", function()
+	clearBody()
+	winTitle.Text = "BLUE LOCK  |  REWARDS"
+	win.Visible = true
+	addInfoCard("🏆 المستوى: " .. tostring(prof.Level) .. "  |  الرصيد: " .. tostring(prof.Riyal) .. " ريال")
+	addWinBtn("🎁 استلام مكافأة (+300 ريال و +120 XP)", Color3.fromRGB(217, 119, 6), function(btn)
+		local ok, msg = ClaimRewardRemote:InvokeServer()
+		btn.Text = (ok and "🎉 " or "⏳ ") .. tostring(msg)
+	end)
+end)
+
+addMenuBtn("🔊 Audio Toggle", function()
+	clearBody()
+	winTitle.Text = "BLUE LOCK  |  SETTINGS"
+	win.Visible = true
+	addWinBtn("🔊 تبديل المؤثرات الصوتية (SFX)", Color3.fromRGB(51, 65, 85), function(btn)
+		prof.SFXEnabled = not (prof.SFXEnabled ~= false)
+		btn.Text = "🔊 الصوت الآن: " .. (prof.SFXEnabled and "مفعّل" or "متوقف")
+	end)
+end)
+
+local bar = Instance.new("Frame")
+bar.Size = UDim2.new(0, 620, 0, 60)
+bar.Position = UDim2.new(0.5, -310, 1, -74)
+bar.BackgroundColor3 = Color3.fromRGB(15, 23, 42)
+bar.BackgroundTransparency = 0.08
+bar.Parent = gui
+applyCardStyle(bar, 16, Color3.fromRGB(56, 189, 248), Color3.fromRGB(15, 23, 42), Color3.fromRGB(23, 37, 84))
+
+local barLayout = Instance.new("UIListLayout")
+barLayout.FillDirection = Enum.FillDirection.Horizontal
+barLayout.HorizontalAlignment = Enum.HorizontalAlignment.Center
+barLayout.VerticalAlignment = Enum.VerticalAlignment.Center
+barLayout.Padding = UDim.new(0, 8)
+barLayout.Parent = bar
+
+local function addActionBtn(txt, col, fn)
+	local b = Instance.new("TextButton")
+	b.Size = UDim2.new(0, 92, 0, 42)
+	b.BackgroundColor3 = col
+	b.Font = Enum.Font.GothamBold
+	b.TextSize = 12
+	b.TextColor3 = Color3.fromRGB(255, 255, 255)
+	b.Text = txt
+	b.Parent = bar
+	applyCardStyle(b, 10, Color3.fromRGB(248, 250, 252), nil, nil)
+	b.MouseButton1Click:Connect(function()
+		playSFX()
+		fn()
+	end)
+end
+
+addActionBtn("⚽ Play", Color3.fromRGB(37, 99, 235), function() MatchmakingEvent:FireServer("JoinQueue") end)
+addActionBtn("✋ Claim", Color3.fromRGB(14, 165, 233), function() BallActionEvent:FireServer("Claim") end)
+addActionBtn("🤝 Pass", Color3.fromRGB(2, 132, 199), function() BallActionEvent:FireServer("Pass") end)
+addActionBtn("🔥 Shoot", Color3.fromRGB(239, 68, 68), function() BallActionEvent:FireServer("Shoot") end)
+addActionBtn("🛡️ Tackle", Color3.fromRGB(245, 158, 11), function() BallActionEvent:FireServer("Tackle") end)
+addActionBtn("⚡ Skill", Color3.fromRGB(168, 85, 247), function()
+	UseSkillEvent:FireServer((prof.EquippedSkills and prof.EquippedSkills[1]) or "DirectShot")
+end)
+
+UserInputService.InputBegan:Connect(function(inp, gp)
+	if gp then return end
+	if inp.KeyCode == Enum.KeyCode.E then BallActionEvent:FireServer("Claim")
+	elseif inp.KeyCode == Enum.KeyCode.Q then BallActionEvent:FireServer("Pass")
+	elseif inp.KeyCode == Enum.KeyCode.F then BallActionEvent:FireServer("Shoot")
+	elseif inp.KeyCode == Enum.KeyCode.C then BallActionEvent:FireServer("Tackle")
+	elseif inp.KeyCode == Enum.KeyCode.One then UseSkillEvent:FireServer("DirectShot")
+	elseif inp.KeyCode == Enum.KeyCode.Two then UseSkillEvent:FireServer("CurveShot")
+	elseif inp.KeyCode == Enum.KeyCode.Three then UseSkillEvent:FireServer("Dribbling")
+	elseif inp.KeyCode == Enum.KeyCode.G then UseSkillEvent:FireServer("Awakening")
+	end
+end)
+
+SyncCatalogEvent.OnClientEvent:Connect(function(c, s)
+	if type(c) == "table" then chars = c end
+	if type(s) == "table" then skills = s end
+end)
+
+UpdateProfileEvent.OnClientEvent:Connect(function(p)
+	if type(p) == "table" then prof = p end
+end)
+
+MatchStateEvent.OnClientEvent:Connect(function(st)
+	if type(st) == "table" then
+		local m = math.floor((st.TimeRemaining or 0) / 60)
+		local s = (st.TimeRemaining or 0) % 60
+		scoreLbl.Text = string.format("🔵 BLUE %d  -  %d RED 🔴  |  ⏱ %02d:%02d", st.BlueScore or 0, st.RedScore or 0, m, s)
+		subLbl.Text = string.format("BLUE LOCK  •  %s  •  BALL: %s", tostring(st.Status or "READY"), tostring(st.OwnerName or "Free"))
+	end
+end)
+
+SkillVFXEvent.OnClientEvent:Connect(function(_, _, _, soundId)
+	if soundId then playSFX(soundId) end
+end)]]></ProtectedString>
+        </Properties>
+      </Item>
+    </Item>
+  </Item>
+</roblox>
